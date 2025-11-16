@@ -7,7 +7,7 @@ from data.PerLTQA.Dataset.dataset import PerLTMem, PerLTQA
 from retrieval.models import HFEmbeddingModel, RerankerModel
 from retrieval.naive import NaiveRetriever
 from retrieval.reranker import RerankerRetriever
-from evaluate.ragas import evaluate_ragas
+from models.utils.json_utils import write_json
 
 import argparse
 import json
@@ -24,13 +24,6 @@ parser.add_argument("--transformers", action="store_true", help="Chamando o mode
 parser.add_argument("--xlstm", action="store_true", help="Chamando o modelo xlstm")
 
 args = parser.parse_args()
-
-
-#TODO: Adicionar a lógica dos outros datasets para realizar a inferência com outros tipos de memória
-#TODO: Escalar a implementação da avaliação para o dataset, por enquanto somente avalia 1 pergunta e resposta por código rodado.
-#TODO: Após realizar a avaliação, salvar os resultados dentro de algum arquivo, separado por modelo utilizado.
-#TODO: Verificar a qualidade do RAG feito (Recupera documentos similares e relevantes?).
-#TODO: Analisar se com base na arquitetura do modelo o resultado é satisfatório?
 
 
 def find_rand(list: list):
@@ -55,13 +48,7 @@ def dataset_PerLQTA():
         content = f.read()
         context = json.loads(content)   
 
-    chosen_data, random_character = find_rand(context)
-
-    initial_prompt = chosen_data["pergunta"]    
-
-    sample_mem =  chosen_data["resposta_correta"]
-
-    return initial_prompt, sample_mem, context, random_character
+    return context
 
 
 
@@ -73,23 +60,37 @@ if __name__ == "__main__":
     embed_model=HFEmbeddingModel(),
     )
 
-    #Foi criado somente o processamento com 1 dos datasets.
-    initial_prompt, sample_mem, context, random_character = dataset_PerLQTA()
+    context = dataset_PerLQTA()
 
-    if args.naiverag:
-        rag = NaiveRetriever(vector_store=vector_store, k=5).get_context(initial_prompt)
+    answer_list = []
+    answer_dict = {"resposta_do_model": "", "resposta_correta": ""}
 
-    elif args.reranker:
-        rag = RerankerRetriever(vector_store, RerankerModel().model, 20, 5).get_context(initial_prompt)
+    for i, j in enumerate(context):
+        initial_prompt = context[i]["pergunta"]  
 
-    else:
-        rag = ""
+        if args.naiverag:
+            rag = NaiveRetriever(vector_store=vector_store, k=5).get_context(initial_prompt)
 
-    if args.mamba:
-        answer = generate_answer_mamba(question=initial_prompt, base_context=rag)
-    
-    elif args.transformers:
-        answer = generate_answer_transformers(query=initial_prompt)
+        elif args.reranker:
+            rag = RerankerRetriever(vector_store, RerankerModel().model, 20, 5).get_context(initial_prompt)
 
-    elif args.xlstm:
-        answer = generate_answer_xlstm(query=initial_prompt)
+        else:
+            rag = ""
+
+        if args.mamba:
+            answer = generate_answer_mamba(question=initial_prompt, base_context=rag)
+        
+        elif args.transformers:
+            answer = generate_answer_transformers(query=initial_prompt)
+
+        elif args.xlstm:
+            answer = generate_answer_xlstm(query=initial_prompt)
+
+        answer_dict['resposta_do_model'] = answer
+        answer_dict['resposta_correta'] = context[i]["resposta_correta"] 
+
+        answer_list.append(answer_dict)
+
+        print(f"\niteration: {i}")
+
+    write_json(answer_list, "output/model_answer.json")

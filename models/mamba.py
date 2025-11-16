@@ -11,6 +11,8 @@ def generate_answer_mamba(question : str, base_context: str):
     tokenizer = AutoTokenizer.from_pretrained("state-spaces/mamba-2.8b-hf")
     model = MambaForCausalLM.from_pretrained("state-spaces/mamba-2.8b-hf")
 
+    print(MambaForCausalLM.get_memory_footprint("state-spaces/mamba-2.8b-hf"))
+
     inputs = tokenizer(prompt, return_tensors="pt", padding=False, truncation=True, max_length=512)
 
     input_ids = inputs["input_ids"]
@@ -26,6 +28,6 @@ def generate_answer_mamba(question : str, base_context: str):
 
     full_text = full_text.split(".")[0].strip() + "."
 
-    print("\n Full Text: ", full_text)
+    print("Full Text: ", full_text)
 
     return full_text
