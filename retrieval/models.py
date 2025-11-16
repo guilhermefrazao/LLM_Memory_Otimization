@@ -1,3 +1,4 @@
+import asyncio
 from sentence_transformers import SentenceTransformer, CrossEncoder
 
 from retrieval.base import EmbeddingModel
@@ -9,6 +10,9 @@ class HFEmbeddingModel(EmbeddingModel):
 
     def embed_text(self, text: str) -> list[float]:
         return self.model.encode(text).tolist()
+
+    async def aembed_text(self, text: str) -> list[float]:
+        return await asyncio.to_thread(self.embed_text, text)
 
     def get_embed_dim(self) -> int | None:
         return self.model.get_sentence_embedding_dimension()
@@ -26,3 +30,6 @@ class RerankerModel:
 
         ranked_docs = [doc for _, doc in sorted(zip(scores, documents), reverse=True)]  # Ordena os documentos pelos scores
         return ranked_docs
+
+    async def arank(self, query: str, documents: list[str]) -> list[str]:
+        return await asyncio.to_thread(self.rank, query, documents)
