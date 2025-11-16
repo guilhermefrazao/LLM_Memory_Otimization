@@ -1,7 +1,7 @@
 from transformers import MambaForCausalLM, AutoTokenizer, GenerationConfig
 
 def generate_answer_mamba(question : str, base_context: str):
-    if isinstance(base_context, str):
+    if not base_context == "":
         prompt = question + base_context
     else:
         prompt = question

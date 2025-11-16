@@ -7,6 +7,7 @@ from data.PerLTQA.Dataset.dataset import PerLTMem, PerLTQA
 from retrieval.models import HFEmbeddingModel, RerankerModel
 from retrieval.naive import NaiveRetriever
 from retrieval.reranker import RerankerRetriever
+from evaluate.ragas import evaluate_ragas
 
 import argparse
 import json
@@ -50,48 +51,17 @@ def dataset_PerLQTA():
     Carrega o dataset PerLTQA e retorna uma pergunta, memória e fatos do personagem.
     Garante que o personagem escolhido tenha tanto memórias quanto perguntas.
     """
-    # load PerLT_Mem dataset
-    dataset_mem = PerLTMem()
-    dataset_qa = PerLTQA()
+    with open("data/PerLTQA/Dataset/en/qa_dataset_extraido.json", 'r', encoding="utf-8") as f:
+        content = f.read()
+        context = json.loads(content)   
 
-    character_data = dataset_qa.read_json_data("data/PerLTQA/Dataset/en/perltqa_en.json")
-    character_facts = dataset_mem.read_json_data("data/PerLTQA/Dataset/en/perltmem_en.json")
+    chosen_data, random_character = find_rand(context)
 
-    character_names_mem = set(dataset_mem.extract_character_names())
-    character_names_qa = set(dataset_qa.extract_character_names())
-    
-    # Encontra personagens que existem em AMBOS os datasets
-    common_characters = list(character_names_mem.intersection(character_names_qa))
-    
-    if not common_characters:
-        print("AVISO: Nenhum personagem comum entre os datasets de memória e perguntas!")
-        # Fallback: usa qualquer personagem de QA
-        common_characters = list(character_names_qa)
-    
-    # Escolhe um personagem aleatório que tenha dados em ambos
-    character_name = find_rand(common_characters)
-    print(f"-> Personagem escolhido: {character_name}")
-    
-    # Extrai memórias e perguntas
-    samples_Mem = dataset_mem.extract_sample(character_name)
-    samples_QA = dataset_qa.extract_sample(character_name)
-    
-    # Verifica se há perguntas de perfil disponíveis
-    if samples_QA and "profile" in samples_QA and samples_QA["profile"]:
-        question = find_rand(samples_QA["profile"])
-        initial_prompt = question["Question"]
-        ground_truth = question.get("Answer", "")  # Pega a resposta esperada se existir
-    else:
-        print(f"AVISO: Personagem {character_name} não tem perguntas de perfil!")
-        initial_prompt = f"Tell me about {character_name}"
-        ground_truth = ""
-    
-    # Se samples_Mem estiver vazio, usa string vazia
-    if not samples_Mem:
-        samples_Mem = ""
-        ground_truth = ""
-    
-    return initial_prompt, ground_truth, character_facts
+    initial_prompt = chosen_data["pergunta"]    
+
+    sample_mem =  chosen_data["resposta_correta"]
+
+    return initial_prompt, sample_mem, context, random_character
 
 
 
@@ -106,9 +76,6 @@ if __name__ == "__main__":
     #Foi criado somente o processamento com 1 dos datasets.
     initial_prompt, sample_mem, context, random_character = dataset_PerLQTA()
 
-    if args.embeddings:
-        embeddings = generate_embeddings(json.dumps(context), client)
-
     if args.naiverag:
         rag = NaiveRetriever(vector_store=vector_store, k=5).get_context(initial_prompt)
 
@@ -116,24 +83,13 @@ if __name__ == "__main__":
         rag = RerankerRetriever(vector_store, RerankerModel().model, 20, 5).get_context(initial_prompt)
 
     else:
-        rag = []
+        rag = ""
 
     if args.mamba:
         answer = generate_answer_mamba(question=initial_prompt, base_context=rag)
     
     elif args.transformers:
-        answer = generate_answer_transformers(query=prompt)
+        answer = generate_answer_transformers(query=initial_prompt)
 
     elif args.xlstm:
-        answer = generate_answer_xlstm(query=prompt)
-
-    # ragas espera uma lista de listas em "contexts" (retrieved_contexts),
-    # ou seja, [[doc1, doc2, ...]] por pergunta.
-    contexts = [[rag]] if rag else [[]]
-
-    result = evaluate_ragas(
-        questions=[initial_prompt],
-        ground_truths=[sample_mem],
-        contexts=contexts,
-        answers=[answer],
-    )
+        answer = generate_answer_xlstm(query=initial_prompt)

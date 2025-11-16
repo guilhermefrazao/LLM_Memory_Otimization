@@ -44,4 +44,8 @@ dependencies = [
     "typing-extensions==4.15.0",
     "urllib3==2.5.0",
     "uvicorn>=0.38.0",
+    "xlstm>=2.0.5",
+    "ragas>=0.3.9",
+    "datasets>=4.4.1",
+    "dotenv>=0.9.9",
 ]

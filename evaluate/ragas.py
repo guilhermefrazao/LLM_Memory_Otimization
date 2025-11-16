@@ -2,13 +2,11 @@ from datasets import Dataset
 from dotenv import load_dotenv
 from ragas import evaluate
 from ragas.metrics import (
-    context_precision,
-    context_recall,
-    faithfulness,
     answer_correctness,
-    answer_relevancy,
+    answer_similarity,
 )
 import os
+import json
 
 load_dotenv()
 
@@ -25,7 +23,7 @@ def _get_llm_and_embeddings():
             from ragas.llms import LangchainLLMWrapper
             from ragas.embeddings import LangchainEmbeddingsWrapper
             
-            llm = LangchainLLMWrapper(ChatOpenAI(model="gpt-3.5-turbo", temperature=0))
+            llm = LangchainLLMWrapper(ChatOpenAI(model="gpt-4o-mini", temperature=0))
             embeddings = LangchainEmbeddingsWrapper(OpenAIEmbeddings())
             print("-> Usando OpenAI para avaliação RAGAS")
             return llm, embeddings
@@ -82,11 +80,8 @@ def evaluate_ragas(questions, ground_truths, contexts, answers, title="mamba"):
     
     # Define as métricas a usar
     metrics = [
-        context_precision,
-        context_recall,
-        faithfulness,
         answer_correctness,
-        answer_relevancy,
+        answer_similarity,
     ]
     
     # Configura o LLM e embeddings nas métricas se disponíveis
@@ -103,14 +98,22 @@ def evaluate_ragas(questions, ground_truths, contexts, answers, title="mamba"):
             metrics=metrics,
         )
         print(result)
+
+        os.makedirs("output", exist_ok=True)
+
+        scores = result.scores
+
+        filename = f"output/ragas_result_{title or 'default'}.json"
+
+        with open(filename, "w", encoding="utf-8") as f:
+            json.dump(scores, f, indent=4, ensure_ascii=False)
+
+        print(f"Resultado salvo em: {filename}")
+
         return result
     except Exception as e:
         print(f"Erro durante avaliação RAGAS: {e}")
         return {
-            "context_precision": 0.0,
-            "context_recall": 0.0,
-            "faithfulness": 0.0,
             "answer_correctness": 0.0,
-            "answer_relevancy": 0.0,
-            "error": str(e)
+            "answer_similarity": 0.0,
         }

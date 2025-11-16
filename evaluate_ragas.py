@@ -2,15 +2,17 @@ import json
 
 from evaluate.ragas import evaluate_ragas
 
+def read_from_json(file_path: str):
+    with open(file_path, 'r', encoding="utf-8") as f:
+        content = f.read()
+        context = json.loads(content) 
+
+    return context
 
 if __name__ == "__main__":
-    with open("data/PerLTQA/Dataset/en/qa_dataset_extraido.json", 'r', encoding="utf-8") as f:
-        content_dataset = f.read()
-        context_dataset = json.loads(content_dataset)  
+    context_dataset = read_from_json("data/PerLTQA/Dataset/en/qa_dataset_extraido.json")
 
-    with open("data/PerLTQA/Dataset/en/meus_dados_salvos.json", 'r', encoding="utf-8") as f:
-        content_generated = f.read()
-        context_generated = json.loads(content_generated)  
+    context_generated = read_from_json("data/PerLTQA/Dataset/en/meus_dados_salvos.json")
     
     for j, i in enumerate(context_generated):
         answer = i["resposta_do_model"]
