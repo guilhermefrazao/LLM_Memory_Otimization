@@ -8,10 +8,8 @@ def generate_answer_mamba(question : str, base_context: str):
 
     print(f"Prompt: {prompt}")
 
-    tokenizer = AutoTokenizer.from_pretrained("state-spaces/mamba-2.8b-hf")
-    model = MambaForCausalLM.from_pretrained("state-spaces/mamba-2.8b-hf")
-
-    print(MambaForCausalLM.get_memory_footprint("state-spaces/mamba-2.8b-hf"))
+    tokenizer = AutoTokenizer.from_pretrained("state-spaces/mamba-1.4b-hf")
+    model = MambaForCausalLM.from_pretrained("state-spaces/mamba-1.4b-hf")
 
     inputs = tokenizer(prompt, return_tensors="pt", padding=False, truncation=True, max_length=512)
 

@@ -17,7 +17,6 @@ def _get_llm_and_embeddings():
     Tenta usar OpenAI se a chave estiver disponível, senão usa HuggingFace local.
     """
     try:
-        # Tenta usar OpenAI se a chave estiver configurada
         openai_key = os.getenv("OPENAI_API_KEY")
         if openai_key:
             from langchain_openai import ChatOpenAI, OpenAIEmbeddings
@@ -31,7 +30,6 @@ def _get_llm_and_embeddings():
     except Exception as e:
         print(f"-> Não foi possível usar OpenAI: {e}")
     
-    # Fallback: usa HuggingFace local
     try:
         from langchain_community.llms import HuggingFacePipeline
         from langchain_community.embeddings import HuggingFaceEmbeddings
@@ -41,7 +39,6 @@ def _get_llm_and_embeddings():
         
         print("-> Carregando modelo HuggingFace local para avaliação RAGAS...")
         
-        # Usa um modelo pequeno e rápido para avaliação
         pipe = pipeline(
             "text-generation",
             model="google/flan-t5-base",
@@ -49,7 +46,7 @@ def _get_llm_and_embeddings():
             device_map="auto"
         )
         
-        hf_llm = HuggingFacePipeline(pipeline=pipe)
+        hf_llm = HuggingFacePipeline(pipe)
         llm = LangchainLLMWrapper(hf_llm)
         
         hf_embeddings = HuggingFaceEmbeddings(
@@ -86,12 +83,10 @@ def evaluate_ragas(questions, ground_truths, contexts, answers, title="mamba"):
     ]
     
     # Configura o LLM e embeddings nas métricas se disponíveis
-    if llm and embeddings:
-        for metric in metrics:
-            if hasattr(metric, 'llm'):
-                metric.llm = llm
-            if hasattr(metric, 'embeddings'):
-                metric.embeddings = embeddings
+    if llm:
+        answer_correctness.llm = llm
+    if embeddings:
+        answer_correctness.embeddings = embeddings
     
     try:
         result = evaluate(
@@ -105,6 +100,7 @@ def evaluate_ragas(questions, ground_truths, contexts, answers, title="mamba"):
         write_json(scores, f"output/ragas_result_{title or 'default'}.json")
 
         return result
+    
     except Exception as e:
         print(f"Erro durante avaliação RAGAS: {e}")
         return {
