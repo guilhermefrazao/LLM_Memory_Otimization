@@ -12,3 +12,7 @@ class NaiveRetriever(Retriever):
     def get_context(self, query: str) -> list[str]:
         print("Executando get_context")
         return self.vector_store.similarity_search(query, k=self.k)
+
+    async def aget_context(self, query: str) -> list[str]:
+        print("Executando aget_context")
+        return await self.vector_store.asimilarity_search(query, k=self.k)

@@ -22,3 +22,9 @@ class RerankerRetriever(Retriever):
         initial_docs = self.vector_store.similarity_search(query, k=self.initial_k)  # Busca larga
         ranked_docs = self.reranker_model.rank(query, initial_docs)  # Rerank
         return ranked_docs[:self.final_k]  # Retorna os maiores ranks
+
+    async def aget_context(self, query: str) -> list[str]:
+        print("Executando aget_context")
+        initial_docs = await self.vector_store.asimilarity_search(query, k=self.initial_k)  # Busca larga
+        ranked_docs = await self.reranker_model.arank(query, initial_docs)  # Rerank
+        return ranked_docs[:self.final_k]  # Retorna os maiores ranks
