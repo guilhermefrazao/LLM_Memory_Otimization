@@ -1,5 +1,5 @@
 from models.mamba import generate_answer_mamba
-from models.transformers import generate_answer_transformers
+from models.transformers_model import generate_answer_transformers
 from models.xlstm import generate_answer_xlstm
 from writing.memory import MemoryRepository
 from retrieval.store import ChromaVectorStore
@@ -46,41 +46,52 @@ def generate_embeddings(documents: str, client):
 
 
 def dataset_PerLQTA():
+    """
+    Carrega o dataset PerLTQA e retorna uma pergunta, memória e fatos do personagem.
+    Garante que o personagem escolhido tenha tanto memórias quanto perguntas.
+    """
     # load PerLT_Mem dataset
     dataset_mem = PerLTMem()
     dataset_qa = PerLTQA()
 
     character_data = dataset_qa.read_json_data("data/PerLTQA/Dataset/en/perltqa_en.json")
-
     character_facts = dataset_mem.read_json_data("data/PerLTQA/Dataset/en/perltmem_en.json")
 
-    character_names_mem = dataset_mem.extract_character_names()
-
-    character_names_qa = dataset_qa.extract_character_names()
-
-    character_name_mem = find_rand(list(character_names_mem))
-
-    samples_Mem = dataset_mem.extract_sample(character_name_mem)
-
-    try:
-        samples_QA = dataset_qa.extract_sample(character_name_mem)
-
+    character_names_mem = set(dataset_mem.extract_character_names())
+    character_names_qa = set(dataset_qa.extract_character_names())
+    
+    # Encontra personagens que existem em AMBOS os datasets
+    common_characters = list(character_names_mem.intersection(character_names_qa))
+    
+    if not common_characters:
+        print("AVISO: Nenhum personagem comum entre os datasets de memória e perguntas!")
+        # Fallback: usa qualquer personagem de QA
+        common_characters = list(character_names_qa)
+    
+    # Escolhe um personagem aleatório que tenha dados em ambos
+    character_name = find_rand(common_characters)
+    print(f"-> Personagem escolhido: {character_name}")
+    
+    # Extrai memórias e perguntas
+    samples_Mem = dataset_mem.extract_sample(character_name)
+    samples_QA = dataset_qa.extract_sample(character_name)
+    
+    # Verifica se há perguntas de perfil disponíveis
+    if samples_QA and "profile" in samples_QA and samples_QA["profile"]:
         question = find_rand(samples_QA["profile"])
-
         initial_prompt = question["Question"]
-        
-    except:
-        character_name_qa = find_rand(list(character_names_qa))
-
-        samples_QA = dataset_qa.extract_sample(character_name_qa)
-
-        question = find_rand(samples_QA["profile"])
-
-        initial_prompt = question["Question"]
-
+        ground_truth = question.get("Answer", "")  # Pega a resposta esperada se existir
+    else:
+        print(f"AVISO: Personagem {character_name} não tem perguntas de perfil!")
+        initial_prompt = f"Tell me about {character_name}"
+        ground_truth = ""
+    
+    # Se samples_Mem estiver vazio, usa string vazia
+    if not samples_Mem:
         samples_Mem = ""
-
-    return initial_prompt, samples_Mem, character_facts
+        ground_truth = ""
+    
+    return initial_prompt, ground_truth, character_facts
 
 
 
@@ -113,9 +124,18 @@ if __name__ == "__main__":
         answer = generate_answer_mamba(question=prompt)
     
     elif args.transformers:
-        answer = generate_answer_transformers(question=prompt)
+        answer = generate_answer_transformers(query=prompt)
 
     elif args.xlstm:
-        answer = generate_answer_xlstm(question=prompt)
+        answer = generate_answer_xlstm(query=prompt)
 
-    result = evaluate_ragas(questions=[initial_prompt], ground_truths=[sample_mem], contexts=[rag], answers=[answer])
+    # ragas espera uma lista de listas em "contexts" (retrieved_contexts),
+    # ou seja, [[doc1, doc2, ...]] por pergunta.
+    contexts = [[rag]] if rag else [[]]
+
+    result = evaluate_ragas(
+        questions=[initial_prompt],
+        ground_truths=[sample_mem],
+        contexts=contexts,
+        answers=[answer],
+    )
