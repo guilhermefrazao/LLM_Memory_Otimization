@@ -10,6 +10,7 @@ from retrieval.reranker import RerankerRetriever
 from models.utils.json_utils import write_json
 
 import argparse
+import time
 import json
 import random
 from chromadb import PersistentClient
@@ -53,6 +54,7 @@ def dataset_PerLQTA():
 
 
 if __name__ == "__main__":
+    start_time = time.perf_counter()
     client = PersistentClient(path="memory/db")
 
     vector_store = ChromaVectorStore(
@@ -63,7 +65,7 @@ if __name__ == "__main__":
     context = dataset_PerLQTA()
 
     answer_list = []
-    answer_dict = {"resposta_do_model": "", "resposta_correta": ""}
+    answer_dict = {"resposta_do_model": "", "resposta_correta": "", "contexto": ""}
 
     for i, j in enumerate(context):
         initial_prompt = context[i]["pergunta"]  
@@ -88,9 +90,13 @@ if __name__ == "__main__":
 
         answer_dict['resposta_do_model'] = answer
         answer_dict['resposta_correta'] = context[i]["resposta_correta"] 
+        answer_dict['contexto'] = rag
 
         answer_list.append(answer_dict)
 
         print(f"\niteration: {i}")
 
+    end_time = time.perf_counter()
     write_json(answer_list, "output/model_answer.json")
+
+    print("Total_time: ", end_time - start_time)

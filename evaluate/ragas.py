@@ -92,7 +92,10 @@ def evaluate_ragas(questions, ground_truths, contexts, answers, title="mamba"):
         result = evaluate(
             dataset,
             metrics=metrics,
+            llm=llm,
+            embeddings=embeddings
         )
+        
         print(result)
 
         scores = result.scores
