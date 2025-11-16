@@ -6,7 +6,6 @@ from ragas.metrics import (
     answer_similarity,
 )
 import os
-import json
 from ..models.utils.json_utils import write_json
 
 load_dotenv()
@@ -101,7 +100,7 @@ def evaluate_ragas(questions, ground_truths, contexts, answers, title="mamba"):
         scores = result.scores
 
         write_json(scores, f"output/ragas_result_{title or 'default'}.json")
-
+        
         return result
     
     except Exception as e:
