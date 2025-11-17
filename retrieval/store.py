@@ -34,7 +34,6 @@ class ChromaVectorStore:
         r = self.collection.query(
             query_embeddings=[emb], n_results=k, include=["documents", "distances"]
         )
-        self._debug_results(r)
         results = []
         if (
             not r["distances"]

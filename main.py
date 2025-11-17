@@ -74,7 +74,8 @@ if __name__ == "__main__":
             rag = NaiveRetriever(vector_store=vector_store, k=5).get_context(initial_prompt)[0]
 
         elif args.reranker:
-            rag = RerankerRetriever(vector_store, RerankerModel().model, 20, 5).get_context(initial_prompt)[0]
+            ranked_docs, rag = RerankerRetriever(vector_store, RerankerModel().model, 20, 5).get_context(initial_prompt)
+
 
         else:
             rag = ""
@@ -99,6 +100,6 @@ if __name__ == "__main__":
         print(f"\niteration: {i}")
 
     end_time = time.perf_counter()
-    write_json(answer_list, "output/model_answer.json")
+    write_json(answer_list, "output/model_answer_reranker.json")
 
-    print("Total_time: ", end_time - start_time)
+    print("Total_time: ", (end_time - start_time) / 60)

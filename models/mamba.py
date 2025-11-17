@@ -2,9 +2,12 @@ from transformers import MambaForCausalLM, AutoTokenizer, GenerationConfig
 
 def generate_answer_mamba(question : str, base_context: str):
     if not base_context == "":
-        prompt = question + "rag - " + base_context
+        base_context_str = " ".join(base_context)
+        prompt = question + "rag - " + base_context_str
     else:
         prompt = question
+
+    print(f"Prompt: {prompt}")
 
     tokenizer = AutoTokenizer.from_pretrained("state-spaces/mamba-1.4b-hf")
     model = MambaForCausalLM.from_pretrained("state-spaces/mamba-1.4b-hf")
