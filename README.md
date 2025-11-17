@@ -92,6 +92,34 @@ Ele analisa tanto a etapa de recuperação (retrieval) quanto a qualidade da res
 
 A função abaixo realiza toda a avaliação usando um conjunto de perguntas, respostas esperadas, contextos recuperados e respostas do modelo.
 
+# API para inferência
+Para aproveitar o caráter assíncrono do FastAPI, é necessário utilizar um client assíncrono do chromadb, que só está disponível no modo HTTP.
+Para isso, rode um server do chroma:
+```bash
+# Instalar dependências
+uv sync
+# Rode o servidor
+uv run chroma run --path ./memory/db --host 0.0.0.0 --port 8010
+```
+Ou, sem uv:
+```bash
+python -m venv .venv
+# Linux
+.venv/bin/activate
+# Windows
+.venv\Scripts\activate.bat
+
+# Instalar dependências
+pip install -r requirements.txt
+
+# Rode o servidor
+chroma run --path ./memory/db --host 0.0.0.0 --port 8010
+```
+Rodar a API:
+```bash
+uv run api/main.py
+```
+Acesse a doc OpenAPI em http://localhost:8009/docs
 
 # Estrutura das pastas
 ```.
