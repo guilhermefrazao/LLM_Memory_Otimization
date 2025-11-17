@@ -1,0 +1,92 @@
+[
+    {
+        "resposta_do_modelo": "Zhang Xiaohong is a man.",
+        "resposta_correta": "Zhang Xiaohong’s gender is female.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "A.",
+        "resposta_correta": "Zhang Xiaohong’s nickname is Xiaohong.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "Zhang Xiaohong is an engineer in the Department of Civil Engineering.",
+        "resposta_correta": "Zhang Xiaohong is a chemical and pharmaceutical engineer.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "Zhang Xiaohong is a Chinese actress.",
+        "resposta_correta": "Zhang Xiaohong’s age is 28 years old.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "Zhang Xiaohong is a teacher.",
+        "resposta_correta": "Zhang Xiaohong is a chemical and pharmaceutical engineer.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "Zhang Xiaohong is a Chinese citizen.",
+        "resposta_correta": "Zhang Xiaohong’s nationality is Chinese.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "Zhang Xiaohong is a female.",
+        "resposta_correta": "Zhang Xiaohong's appearance features are black hair, dark eyes, and healthy complexion.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "Zhang Xiaohong is a professional photographer.",
+        "resposta_correta": "Zhang Xiaohong's hobbies are reading, traveling and cooking.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "A:\n\nZhang Xiaohong obtained a bachelor's degree in computer science from the University of Science and Technology of China in 2004.",
+        "resposta_correta": "Zhang Xiaohong received a master's degree in chemical pharmaceutical engineering.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "Zhang Xiaohong is a Chinese citizen.",
+        "resposta_correta": "Zhang Xiaohong’s ethnic background is Asian.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "Zhang Xiaohong has a bachelor’s degree in computer science from the University of Science and Technology of China.",
+        "resposta_correta": "Zhang Xiaohong’s educational background is in chemical and pharmaceutical engineering.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "Zhang Xiaohong is a graduate of the Department of Computer Science at the University of California, Berkeley.",
+        "resposta_correta": "Zhang Xiaohong’s employer is a pharmaceutical company.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "Zhang Xiaohong is a Chinese artist who has been awarded the prestigious “China’s National Artist” award.",
+        "resposta_correta": "Zhang Xiaohong won the first prize in the National Chemical Pharmaceutical Engineering Competition.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "Wang Xiaoming is a male.",
+        "resposta_correta": "Wang Xiaoming’s gender is male.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "A:\n\nWang Xiaoming is a Chinese name.",
+        "resposta_correta": "Wang Xiaoming’s nickname is Mingming.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "Wang Xiaoming is the first female to win the title of the World's Best Female Fighter.",
+        "resposta_correta": "Wang Xiaoming's title is engineer.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "Wang Xiaoming is a Chinese actor.",
+        "resposta_correta": "Wang Xiaoming’s age is 28 years old.",
+        "contexto": ""
+    },
+    {
+        "resposta_do_modelo": "Wang Xiaoming is a teacher.",
+        "resposta_correta": "Wang Xiaoming's occupation is a software development engineer.",
+        "contexto": ""
+    }
+]

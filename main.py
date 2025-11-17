@@ -71,10 +71,10 @@ if __name__ == "__main__":
         initial_prompt = context[i]["pergunta"]  
 
         if args.naiverag:
-            rag = NaiveRetriever(vector_store=vector_store, k=5).get_context(initial_prompt)
+            rag = NaiveRetriever(vector_store=vector_store, k=5).get_context(initial_prompt)[0]
 
         elif args.reranker:
-            rag = RerankerRetriever(vector_store, RerankerModel().model, 20, 5).get_context(initial_prompt)
+            rag = RerankerRetriever(vector_store, RerankerModel().model, 20, 5).get_context(initial_prompt)[0]
 
         else:
             rag = ""
@@ -88,9 +88,11 @@ if __name__ == "__main__":
         elif args.xlstm:
             answer = generate_answer_xlstm(query=initial_prompt)
 
-        answer_dict['resposta_do_model'] = answer
-        answer_dict['resposta_correta'] = context[i]["resposta_correta"] 
-        answer_dict['contexto'] = rag
+        answer_dict = {
+            "resposta_do_modelo": answer,
+            "resposta_correta": context[i]["resposta_correta"],
+            "contexto": rag
+        }
 
         answer_list.append(answer_dict)
 
