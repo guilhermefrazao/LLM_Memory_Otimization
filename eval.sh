@@ -11,4 +11,4 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=16G
 
-python3 evaluate_ragas.py
+python3 main.py --mamba --naiverag
