@@ -1,1786 +1,1786 @@
 [
     {
-        "resposta_do_modelo": "Zhang Xiaohong is a man.",
+        "resposta_do_model": "Zhang Xiaohong is a man.",
         "resposta_correta": "Zhang Xiaohong’s gender is female.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A.",
+        "resposta_do_model": "A.",
         "resposta_correta": "Zhang Xiaohong’s nickname is Xiaohong.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhang Xiaohong is an engineer in the Department of Civil Engineering.",
+        "resposta_do_model": "Zhang Xiaohong is an engineer in the Department of Civil Engineering.",
         "resposta_correta": "Zhang Xiaohong is a chemical and pharmaceutical engineer.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhang Xiaohong is a Chinese actress.",
+        "resposta_do_model": "Zhang Xiaohong is a Chinese actress.",
         "resposta_correta": "Zhang Xiaohong’s age is 28 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhang Xiaohong is a teacher.",
+        "resposta_do_model": "Zhang Xiaohong is a teacher.",
         "resposta_correta": "Zhang Xiaohong is a chemical and pharmaceutical engineer.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhang Xiaohong is a Chinese citizen.",
+        "resposta_do_model": "Zhang Xiaohong is a Chinese citizen.",
         "resposta_correta": "Zhang Xiaohong’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhang Xiaohong is a female.",
+        "resposta_do_model": "Zhang Xiaohong is a female.",
         "resposta_correta": "Zhang Xiaohong's appearance features are black hair, dark eyes, and healthy complexion.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhang Xiaohong is a professional photographer.",
+        "resposta_do_model": "Zhang Xiaohong is a professional photographer.",
         "resposta_correta": "Zhang Xiaohong's hobbies are reading, traveling and cooking.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nZhang Xiaohong obtained a bachelor's degree in computer science from the University of Science and Technology of China in 2004.",
+        "resposta_do_model": "A:\n\nZhang Xiaohong obtained a bachelor's degree in computer science from the University of Science and Technology of China in 2004.",
         "resposta_correta": "Zhang Xiaohong received a master's degree in chemical pharmaceutical engineering.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhang Xiaohong is a Chinese citizen.",
+        "resposta_do_model": "Zhang Xiaohong is a Chinese citizen.",
         "resposta_correta": "Zhang Xiaohong’s ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhang Xiaohong has a bachelor’s degree in computer science from the University of Science and Technology of China.",
+        "resposta_do_model": "Zhang Xiaohong has a bachelor’s degree in computer science from the University of Science and Technology of China.",
         "resposta_correta": "Zhang Xiaohong’s educational background is in chemical and pharmaceutical engineering.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhang Xiaohong is a graduate of the Department of Computer Science at the University of California, Berkeley.",
+        "resposta_do_model": "Zhang Xiaohong is a graduate of the Department of Computer Science at the University of California, Berkeley.",
         "resposta_correta": "Zhang Xiaohong’s employer is a pharmaceutical company.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhang Xiaohong is a Chinese artist who has been awarded the prestigious “China’s National Artist” award.",
+        "resposta_do_model": "Zhang Xiaohong is a Chinese artist who has been awarded the prestigious “China’s National Artist” award.",
         "resposta_correta": "Zhang Xiaohong won the first prize in the National Chemical Pharmaceutical Engineering Competition.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Xiaoming is a male.",
+        "resposta_do_model": "Wang Xiaoming is a male.",
         "resposta_correta": "Wang Xiaoming’s gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nWang Xiaoming is a Chinese name.",
+        "resposta_do_model": "A:\n\nWang Xiaoming is a Chinese name.",
         "resposta_correta": "Wang Xiaoming’s nickname is Mingming.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Xiaoming is the first female to win the title of the World's Best Female Fighter.",
+        "resposta_do_model": "Wang Xiaoming is the first female to win the title of the World's Best Female Fighter.",
         "resposta_correta": "Wang Xiaoming's title is engineer.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Xiaoming is a Chinese actor.",
+        "resposta_do_model": "Wang Xiaoming is a Chinese actor.",
         "resposta_correta": "Wang Xiaoming’s age is 28 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Xiaoming is a teacher.",
+        "resposta_do_model": "Wang Xiaoming is a teacher.",
         "resposta_correta": "Wang Xiaoming's occupation is a software development engineer.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Which country is Wang Xiaoming from?\n\nWhich country is Wang Xiaoming from?\n\nWhich country is Wang Xiaoming from?.",
+        "resposta_do_model": "Which country is Wang Xiaoming from?\n\nWhich country is Wang Xiaoming from?\n\nWhich country is Wang Xiaoming from?.",
         "resposta_correta": "Wang Xiaoming is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Xiaoming has a strong body, a strong mind, and a strong heart.",
+        "resposta_do_model": "Wang Xiaoming has a strong body, a strong mind, and a strong heart.",
         "resposta_correta": "Wang Xiaoming has short hair and wears glasses.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Xiaoming is a very active person.",
+        "resposta_do_model": "Wang Xiaoming is a very active person.",
         "resposta_correta": "Wang Xiaoming's hobbies are photography and basketball.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Xiaoming is a Chinese singer and actor.",
+        "resposta_do_model": "Wang Xiaoming is a Chinese singer and actor.",
         "resposta_correta": "Wang Xiaoming’s achievement is to win the first prize in the National Youth Science and Technology Innovation Competition.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Xiaoming is a Chinese.",
+        "resposta_do_model": "Wang Xiaoming is a Chinese.",
         "resposta_correta": "Wang Xiaoming is of Han nationality.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Xiaoming has a bachelor's degree in computer science from the University of Science and Technology of China.",
+        "resposta_do_model": "Wang Xiaoming has a bachelor's degree in computer science from the University of Science and Technology of China.",
         "resposta_correta": "Wang Xiaoming graduated from Computer Science and Technology with a bachelor's degree.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Xiaoming is a student at the University of Science and Technology of China.",
+        "resposta_do_model": "Wang Xiaoming is a student at the University of Science and Technology of China.",
         "resposta_correta": "Wang Xiaoming’s employer is a well-known technology company.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "What is Liang Xin's age?\n\nWhat is Liang Xin's height?\n\nWhat is Liang Xin's weight?.",
+        "resposta_do_model": "What is Liang Xin's age?\n\nWhat is Liang Xin's height?\n\nWhat is Liang Xin's weight?.",
         "resposta_correta": "Liang Xin’s gender is female.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nLiang Xin is a Chinese name.",
+        "resposta_do_model": "A:\n\nLiang Xin is a Chinese name.",
         "resposta_correta": "Liang Xin's nickname is Xinxin.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liang Xin is the Chief of the Department of the Ministry of Public Security.",
+        "resposta_do_model": "Liang Xin is the Chief of the Department of the Ministry of Public Security.",
         "resposta_correta": "Liang Xin’s title is hotel management expert.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liang Xin is a girl.",
+        "resposta_do_model": "Liang Xin is a girl.",
         "resposta_correta": "Liang Xin’s age is 32 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liang Xin is a Chinese actress.",
+        "resposta_do_model": "Liang Xin is a Chinese actress.",
         "resposta_correta": "Liang Xin is a hotel manager.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liang Xin is a Chinese citizen.",
+        "resposta_do_model": "Liang Xin is a Chinese citizen.",
         "resposta_correta": "Liang Xin’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liang Xin is a tall and slender man with a slender waist and a slim body.",
+        "resposta_do_model": "Liang Xin is a tall and slender man with a slender waist and a slim body.",
         "resposta_correta": "Liang Xin's appearance is characterized by long hair and a pleasant smile.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liang Xin: I like to read.",
+        "resposta_do_model": "Liang Xin: I like to read.",
         "resposta_correta": "Liang Xin's hobbies include traveling, eating delicious food and reading.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liang Xin is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
+        "resposta_do_model": "Liang Xin is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
         "resposta_correta": "Liang Xin’s achievement is to successfully manage many well-known hotels and improve customer satisfaction.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liang Xin is a Chinese citizen.",
+        "resposta_do_model": "Liang Xin is a Chinese citizen.",
         "resposta_correta": "Liang Xin’s ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liang Xin is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
+        "resposta_do_model": "Liang Xin is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
         "resposta_correta": "Liang Xin’s educational background is hotel management.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liang Xin is a student at the University of Science and Technology of China.",
+        "resposta_do_model": "Liang Xin is a student at the University of Science and Technology of China.",
         "resposta_correta": "Liang Xin’s employer is a well-known hotel group.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liang Xin is a Chinese-American who has been working in the United States for the past 20 years.",
+        "resposta_do_model": "Liang Xin is a Chinese-American who has been working in the United States for the past 20 years.",
         "resposta_correta": "Liang Xin's award is the Best Hotel Manager Award.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liang Xin: I think my role model is my mother.",
+        "resposta_do_model": "Liang Xin: I think my role model is my mother.",
         "resposta_correta": "Liang Xin’s role model is Li Ka-shing.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Cao Lili is a female character.",
+        "resposta_do_model": "Cao Lili is a female character.",
         "resposta_correta": "Cao Lili’s gender is female.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A.",
+        "resposta_do_model": "A.",
         "resposta_correta": "Cao Lili’s nickname is Xiaoli",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Cao Lili: She was a teacher.",
+        "resposta_do_model": "Cao Lili: She was a teacher.",
         "resposta_correta": "Cao Lili learned family education before.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Jia is a male.",
+        "resposta_do_model": "Xu Jia is a male.",
         "resposta_correta": "Xu Jia’s gender is female.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A.",
+        "resposta_do_model": "A.",
         "resposta_correta": "Xu Jia’s nickname is Jia Jia",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Jia is a young man.",
+        "resposta_do_model": "Xu Jia is a young man.",
         "resposta_correta": "Xu Jia's age is 28 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Jia is a student.",
+        "resposta_do_model": "Xu Jia is a student.",
         "resposta_correta": "Xu Jia's profession is a film and television professional.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Jia is a Chinese citizen.",
+        "resposta_do_model": "Xu Jia is a Chinese citizen.",
         "resposta_correta": "Xu Jia’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Jia is a tall and slender man with a slender waist and a slim body.",
+        "resposta_do_model": "Xu Jia is a tall and slender man with a slender waist and a slim body.",
         "resposta_correta": "Xu Jia's physical characteristics include black hair, dark eyes, and a medium build.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Jia is a fan of the Chinese opera.",
+        "resposta_do_model": "Xu Jia is a fan of the Chinese opera.",
         "resposta_correta": "Xu Jia's hobbies include watching movies, shooting short films and editing videos.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Jia is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
+        "resposta_do_model": "Xu Jia is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
         "resposta_correta": "Xu Jia has won multiple film and television-related awards.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Jia is a Chinese.",
+        "resposta_do_model": "Xu Jia is a Chinese.",
         "resposta_correta": "Xu Jia's ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Jia has a bachelor's degree in computer science from the University of Science and Technology of China.",
+        "resposta_do_model": "Xu Jia has a bachelor's degree in computer science from the University of Science and Technology of China.",
         "resposta_correta": "Xu Jia's educational background is in film and television.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nXu Jia is a student of the University of Science and Technology of China.",
+        "resposta_do_model": "A:\n\nXu Jia is a student of the University of Science and Technology of China.",
         "resposta_correta": "Xu Jia's employer is a film production company.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Jia has won the following awards:\n\nBest Director\n\nBest Actor\n\nBest Actress\n\nBest Supporting Actor.",
+        "resposta_do_model": "Xu Jia has won the following awards:\n\nBest Director\n\nBest Actor\n\nBest Actress\n\nBest Supporting Actor.",
         "resposta_correta": "Xu Jia won the Best Screenplay Award and the Best Director Award.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Jia’s role model is his mother.",
+        "resposta_do_model": "Xu Jia’s role model is his mother.",
         "resposta_correta": "Xu Jia’s role model is Ang Lee.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Chen Zhi is a male.",
+        "resposta_do_model": "Chen Zhi is a male.",
         "resposta_correta": "Chen Zhi’s gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nChen Zhi is a Chinese name.",
+        "resposta_do_model": "A:\n\nChen Zhi is a Chinese name.",
         "resposta_correta": "Chen Zhi’s nickname is Zhi Zhi.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Chen Zhi is the head of the Department of the Ministry of State Security.",
+        "resposta_do_model": "Chen Zhi is the head of the Department of the Ministry of State Security.",
         "resposta_correta": "Chen Zhi’s title is Mr.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Chen Zhi is a young man.",
+        "resposta_do_model": "Chen Zhi is a young man.",
         "resposta_correta": "Chen Zhi's age is 30 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Chen Zhi is a doctor.",
+        "resposta_do_model": "Chen Zhi is a doctor.",
         "resposta_correta": "Chen Zhi’s career is an agricultural policy researcher.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Chen Zhi is a Chinese citizen.",
+        "resposta_do_model": "Chen Zhi is a Chinese citizen.",
         "resposta_correta": "Chen Zhi’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Chen Zhi is a tall man with a slender build.",
+        "resposta_do_model": "Chen Zhi is a tall man with a slender build.",
         "resposta_correta": "Chen Zhi’s appearance features black hair, dark eyes, and a healthy body.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Chen Zhi is a big fan of the Chinese opera.",
+        "resposta_do_model": "Chen Zhi is a big fan of the Chinese opera.",
         "resposta_correta": "Chen Zhi's hobbies include reading, writing, traveling and planting.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Chen Zhi is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
+        "resposta_do_model": "Chen Zhi is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
         "resposta_correta": "Chen Zhi’s achievement is the publication of many agricultural policy research papers.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Chen Zhi is a Chinese.",
+        "resposta_do_model": "Chen Zhi is a Chinese.",
         "resposta_correta": "Chen Zhi’s ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Chen Zhi is a student at the University of Science and Technology of China.",
+        "resposta_do_model": "Chen Zhi is a student at the University of Science and Technology of China.",
         "resposta_correta": "Chen Zhi’s employer is an agricultural research institution.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Chen Zhi's award is a special award given to the best student in the class.",
+        "resposta_do_model": "Chen Zhi's award is a special award given to the best student in the class.",
         "resposta_correta": "Chen Zhi’s award is the Outstanding Youth Award in the field of agricultural policy research.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "What is Li Hua's age?\n\nWhat is Li Hua's height?\n\nWhat is Li Hua's weight?\n\nWhat.",
+        "resposta_do_model": "What is Li Hua's age?\n\nWhat is Li Hua's height?\n\nWhat is Li Hua's weight?\n\nWhat.",
         "resposta_correta": "Li Hua's gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nLi Hua is a nickname for Li Huan, a famous poet in the Tang Dynasty.",
+        "resposta_do_model": "A:\n\nLi Hua is a nickname for Li Huan, a famous poet in the Tang Dynasty.",
         "resposta_correta": "Li Hua's nickname is Xiaohua.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Li Hua is the head of the Department of the Ministry of State Security.",
+        "resposta_do_model": "Li Hua is the head of the Department of the Ministry of State Security.",
         "resposta_correta": "Li Hua's title is contemporary artist.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "What is Li Hua's age?\n\nWhat is Li Hua's age?\n\nWhat is Li Hua's age?\n\nWhat.",
+        "resposta_do_model": "What is Li Hua's age?\n\nWhat is Li Hua's age?\n\nWhat is Li Hua's age?\n\nWhat.",
         "resposta_correta": "Li Hua's age is 30 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Li Hua is a farmer.",
+        "resposta_do_model": "Li Hua is a farmer.",
         "resposta_correta": "Li Hua is an artist by profession",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "What is Li Hua's nationality?\n\nWhat is Li Hua's nationality?\n\nWhat is Li Hua's nationality?\n\nWhat.",
+        "resposta_do_model": "What is Li Hua's nationality?\n\nWhat is Li Hua's nationality?\n\nWhat is Li Hua's nationality?\n\nWhat.",
         "resposta_correta": "Li Hua's nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Li Hua is a man of average height, with a round face and a round body.",
+        "resposta_do_model": "Li Hua is a man of average height, with a round face and a round body.",
         "resposta_correta": "Li Hua's appearance is characterized by short black hair, black-rimmed glasses, and a slender figure.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Li Hua: I like to read books, watch movies, and play games.",
+        "resposta_do_model": "Li Hua: I like to read books, watch movies, and play games.",
         "resposta_correta": "Li Hua's hobbies include painting, sculpture and photography.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Li Hua is a very good student.",
+        "resposta_do_model": "Li Hua is a very good student.",
         "resposta_correta": "Li Hua's achievement is that he has exhibited works in many domestic and foreign art exhibitions and won many art awards.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Li Hua is a Chinese.",
+        "resposta_do_model": "Li Hua is a Chinese.",
         "resposta_correta": "Li Hua's ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Li Hua: I studied in the Department of Physics at the University of Science and Technology of China.",
+        "resposta_do_model": "Li Hua: I studied in the Department of Physics at the University of Science and Technology of China.",
         "resposta_correta": "modern Art.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nLi Hua is a former employee of the Chinese government.",
+        "resposta_do_model": "A:\n\nLi Hua is a former employee of the Chinese government.",
         "resposta_correta": "Li Hua has no employer and is a freelancer.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liu Liang is a male.",
+        "resposta_do_model": "Liu Liang is a male.",
         "resposta_correta": "Liu Liang's gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A.",
+        "resposta_do_model": "A.",
         "resposta_correta": "Liu Liang’s nickname is Liangliang",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liu Liang is a man of about 30 years old.",
+        "resposta_do_model": "Liu Liang is a man of about 30 years old.",
         "resposta_correta": "Liu Liang’s age is 30",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liu Liang is a farmer.",
+        "resposta_do_model": "Liu Liang is a farmer.",
         "resposta_correta": "Liu Liang is a bioinformatician.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Which country is Liu Liang's nationality?\n\nWhich country is Liu Liang's nationality?\n\nWhich country is Liu Liang.",
+        "resposta_do_model": "Which country is Liu Liang's nationality?\n\nWhich country is Liu Liang's nationality?\n\nWhich country is Liu Liang.",
         "resposta_correta": "Liu Liang’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liu Liang is a man of average height, with a round face and a round body.",
+        "resposta_do_model": "Liu Liang is a man of average height, with a round face and a round body.",
         "resposta_correta": "Liu Liang's physical appearance is black hair, black eyes, and medium build.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liu Liang is a professional photographer.",
+        "resposta_do_model": "Liu Liang is a professional photographer.",
         "resposta_correta": "Liu Liang's hobbies include scientific research, programming and reading.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liu Liang is a famous Chinese painter.",
+        "resposta_do_model": "Liu Liang is a famous Chinese painter.",
         "resposta_correta": "Liu Liang's achievement is to publish a number of bioinformatics-related papers.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liu Liang is a Chinese.",
+        "resposta_do_model": "Liu Liang is a Chinese.",
         "resposta_correta": "Liu Liang's ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liu Liang has a bachelor's degree in computer science from the University of Science and Technology of China.",
+        "resposta_do_model": "Liu Liang has a bachelor's degree in computer science from the University of Science and Technology of China.",
         "resposta_correta": "Liu Liang’s educational background is in bioinformatics.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Liu Liang is a member of the Chinese Academy of Sciences, a member of the Chinese Academy of Engineering, and a member of the Chinese.",
+        "resposta_do_model": "Liu Liang is a member of the Chinese Academy of Sciences, a member of the Chinese Academy of Engineering, and a member of the Chinese.",
         "resposta_correta": "Liu Liang’s award is the Outstanding Youth Award in the field of bioinformatics.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Yang Wei is a Chinese actress.",
+        "resposta_do_model": "Yang Wei is a Chinese actress.",
         "resposta_correta": "Yang Wei’s gender is male",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Yang Wei's nickname is \"The Great One\".",
+        "resposta_do_model": "Yang Wei's nickname is \"The Great One\".",
         "resposta_correta": "Yang Wei's nickname is Weiwei.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Yang Wei is a Chinese actress.",
+        "resposta_do_model": "Yang Wei is a Chinese actress.",
         "resposta_correta": "Yang Wei is Mr.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Yang Wei is a young man.",
+        "resposta_do_model": "Yang Wei is a young man.",
         "resposta_correta": "Yang Wei's age is 30 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Yang Wei is a student at the University of Science and Technology of China.",
+        "resposta_do_model": "Yang Wei is a student at the University of Science and Technology of China.",
         "resposta_correta": "Yang Wei is an ecological and environmental scientist by profession.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Which country is Yang Wei from?\n\nWhich country is Yang Wei from?\n\nWhich country is Yang Wei from?\n\nWhich.",
+        "resposta_do_model": "Which country is Yang Wei from?\n\nWhich country is Yang Wei from?\n\nWhich country is Yang Wei from?\n\nWhich.",
         "resposta_correta": "Yang Wei is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Yang Wei is tall.",
+        "resposta_do_model": "Yang Wei is tall.",
         "resposta_correta": "Yes, Yang Wei is very tall.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Yang Wei is a professional photographer.",
+        "resposta_do_model": "Yang Wei is a professional photographer.",
         "resposta_correta": "Yang Wei's hobbies include outdoor sports, photography and reading.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Yang Wei has been a member of the Chinese national team since the age of 16.",
+        "resposta_do_model": "Yang Wei has been a member of the Chinese national team since the age of 16.",
         "resposta_correta": "Yang Wei’s achievements include publishing many ecological and environmental research papers.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Yang Wei is a Chinese.",
+        "resposta_do_model": "Yang Wei is a Chinese.",
         "resposta_correta": "Yang Wei's ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Yang Wei has a bachelor's degree in computer science from the University of Science and Technology of China.",
+        "resposta_do_model": "Yang Wei has a bachelor's degree in computer science from the University of Science and Technology of China.",
         "resposta_correta": "Yang Wei’s educational background is in ecological environment.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Han Gang is a male.",
+        "resposta_do_model": "Han Gang is a male.",
         "resposta_correta": "Han Gang's gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Han Gang's nickname is \"The Great One.",
+        "resposta_do_model": "Han Gang's nickname is \"The Great One.",
         "resposta_correta": "Han Gang’s nickname is Gangang",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Han Gang is the head of the Han Gang clan.",
+        "resposta_do_model": "Han Gang is the head of the Han Gang clan.",
         "resposta_correta": "Han Gang's title is marketing expert.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Han Gang is a man in his 30s.",
+        "resposta_do_model": "Han Gang is a man in his 30s.",
         "resposta_correta": "Han Gang's age is 35 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Han Gang is a doctor.",
+        "resposta_do_model": "Han Gang is a doctor.",
         "resposta_correta": "Han Gang is a marketing expert by profession.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Han Gang is a Korean.",
+        "resposta_do_model": "Han Gang is a Korean.",
         "resposta_correta": "Han Gang's nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Han Gang is a tall, slender man with a long face and a long neck.",
+        "resposta_do_model": "Han Gang is a tall, slender man with a long face and a long neck.",
         "resposta_correta": "Han Gang's appearance is tall and strong, with short hair.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Han Gang is a fan of the movie \"The Great Wall\".",
+        "resposta_do_model": "Han Gang is a fan of the movie \"The Great Wall\".",
         "resposta_correta": "Han Gang's hobbies include reading, traveling and playing basketball.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Han Gang is a very talented and skilled person.",
+        "resposta_do_model": "Han Gang is a very talented and skilled person.",
         "resposta_correta": "Han Gang's achievement is that he has successfully launched multiple marketing campaigns and led the team to achieve significant sales growth.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Han Gang is a Korean.",
+        "resposta_do_model": "Han Gang is a Korean.",
         "resposta_correta": "Han Gang is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Han Gang is a graduate of the Department of Economics at the University of Chicago.",
+        "resposta_do_model": "Han Gang is a graduate of the Department of Economics at the University of Chicago.",
         "resposta_correta": "Han Gang's educational background is in marketing.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Han Gang is a member of the Gang of Four.",
+        "resposta_do_model": "Han Gang is a member of the Gang of Four.",
         "resposta_correta": "Han Gang's employer is a well-known multinational company.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Gang Han is the winner of the Best Actor Award for his role in the film \"The Last Emperor\".",
+        "resposta_do_model": "Gang Han is the winner of the Best Actor Award for his role in the film \"The Last Emperor\".",
         "resposta_correta": "Gang Han has won the Best Marketing Campaign Award from the Marketing Association.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Cai Xiuying is a male.",
+        "resposta_do_model": "Cai Xiuying is a male.",
         "resposta_correta": "Cai Xiuying’s gender is female.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Cai Xiuying's nickname is 小小小小小小小小小小小小小小小小小小小.",
+        "resposta_do_model": "Cai Xiuying's nickname is 小小小小小小小小小小小小小小小小小小小.",
         "resposta_correta": "Cai Xiuying's nickname is Xiaoxiu.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Cai Xiuying is a woman in her 30s.",
+        "resposta_do_model": "Cai Xiuying is a woman in her 30s.",
         "resposta_correta": "Cai Xiuying's age is 28.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Cai Xiuying is a teacher.",
+        "resposta_do_model": "Cai Xiuying is a teacher.",
         "resposta_correta": "Cai Xiuying is an international political scientist by profession.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Cai Xiuying is a Chinese citizen.",
+        "resposta_do_model": "Cai Xiuying is a Chinese citizen.",
         "resposta_correta": "Cai Xiuying’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Cai Xiuying is a man of average height, with a round face and a round body.",
+        "resposta_do_model": "Cai Xiuying is a man of average height, with a round face and a round body.",
         "resposta_correta": "Cai Xiuying's appearance is characterized by beautiful long hair and smiling eyes.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Cai Xiuying is a very active person.",
+        "resposta_do_model": "Cai Xiuying is a very active person.",
         "resposta_correta": "Cai Xiuying's hobbies are reading, traveling and writing.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Cai Xiuying is a graduate of the Department of Computer Science of the University of Science and Technology of China.",
+        "resposta_do_model": "Cai Xiuying is a graduate of the Department of Computer Science of the University of Science and Technology of China.",
         "resposta_correta": "Cai Xiuying’s achievement is to publish many research papers on international politics.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Cai Xiuying is a Chinese.",
+        "resposta_do_model": "Cai Xiuying is a Chinese.",
         "resposta_correta": "Cai Xiuying's ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Cai Xiuying has a bachelor’s degree in computer science from the University of Science and Technology of China.",
+        "resposta_do_model": "Cai Xiuying has a bachelor’s degree in computer science from the University of Science and Technology of China.",
         "resposta_correta": "Cai Xiuying’s educational background is in international politics.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Cai Xiuying is a student at the University of Science and Technology of China.",
+        "resposta_do_model": "Cai Xiuying is a student at the University of Science and Technology of China.",
         "resposta_correta": "Cai Xiuying’s employer is an international research institution.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Cai Xiuying is the winner of the \"Best Newcomer\" award at the 2017 China International Film Festival.",
+        "resposta_do_model": "Cai Xiuying is the winner of the \"Best Newcomer\" award at the 2017 China International Film Festival.",
         "resposta_correta": "Cai Xiuying’s award is the International Political Science Research Award.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Cai Xiuying’s role model is the late Chinese actress, singer and model, Zhang Ziyi.",
+        "resposta_do_model": "Cai Xiuying’s role model is the late Chinese actress, singer and model, Zhang Ziyi.",
         "resposta_correta": "Cai Xiuying’s role model is Eugene Wallace.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Ming is a male.",
+        "resposta_do_model": "Wang Ming is a male.",
         "resposta_correta": "Wang Ming's gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "(a) \"The Red Dragon\"\n\n(b) \"The Red Dragon\"\n\n(c) \"The Red Dragon\".",
+        "resposta_do_model": "(a) \"The Red Dragon\"\n\n(b) \"The Red Dragon\"\n\n(c) \"The Red Dragon\".",
         "resposta_correta": "Wang Ming's nickname is Mingming.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Ming is the Chairman of the Central Military Commission.",
+        "resposta_do_model": "Wang Ming is the Chairman of the Central Military Commission.",
         "resposta_correta": "Wang Ming’s title is Agricultural Resource Manager",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Ming is a man of about thirty-five years of age.",
+        "resposta_do_model": "Wang Ming is a man of about thirty-five years of age.",
         "resposta_correta": "Wang Ming’s age is 30",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Ming is a writer.",
+        "resposta_do_model": "Wang Ming is a writer.",
         "resposta_correta": "Wang Ming’s occupation is an agricultural resource manager.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Ming is a Chinese citizen.",
+        "resposta_do_model": "Wang Ming is a Chinese citizen.",
         "resposta_correta": "Wang Ming’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Ming is a tall man with a slender build.",
+        "resposta_do_model": "Wang Ming is a tall man with a slender build.",
         "resposta_correta": "Wang Ming's physical characteristics include a medium build, short black hair, and wearing glasses.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Ming is a very busy man.",
+        "resposta_do_model": "Wang Ming is a very busy man.",
         "resposta_correta": "Wang Ming's hobbies are growing vegetables and raising poultry.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Ming was a great revolutionary.",
+        "resposta_do_model": "Wang Ming was a great revolutionary.",
         "resposta_correta": "Wang Ming has extensive practical experience in the field of agricultural resource management and has successfully increased crop yields.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Ming is a Chinese.",
+        "resposta_do_model": "Wang Ming is a Chinese.",
         "resposta_correta": "Wang Ming is of Han nationality.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Ming is a graduate of the Department of Physics, Peking University.",
+        "resposta_do_model": "Wang Ming is a graduate of the Department of Physics, Peking University.",
         "resposta_correta": "Wang Ming’s educational background is in agricultural resource management.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nWang Ming is a member of the Communist Party of China.",
+        "resposta_do_model": "A:\n\nWang Ming is a member of the Communist Party of China.",
         "resposta_correta": "Wang Ming’s employer is an agricultural company.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Wang Ming is a great example of a Chinese artist who has been able to make a living in the West.",
+        "resposta_do_model": "Wang Ming is a great example of a Chinese artist who has been able to make a living in the West.",
         "resposta_correta": "Wang Ming's award is that he has won the Agricultural Science and Technology Innovation Award, and his role model is agricultural scientist Li Ming.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zheng Yong is a male.",
+        "resposta_do_model": "Zheng Yong is a male.",
         "resposta_correta": "Zheng Yong’s gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A.",
+        "resposta_do_model": "A.",
         "resposta_correta": "Zheng Yong’s nickname is Xiaoyong",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zheng Yong is a man of about 30 years old.",
+        "resposta_do_model": "Zheng Yong is a man of about 30 years old.",
         "resposta_correta": "Zheng Yong's age is 30 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zheng Yong is a farmer.",
+        "resposta_do_model": "Zheng Yong is a farmer.",
         "resposta_correta": "Zheng Yong’s profession is a lawyer",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Which country is Zheng Yong from?\n\nWhich country is Zheng Yong from?\n\nWhich country is Zheng Y.",
+        "resposta_do_model": "Which country is Zheng Yong from?\n\nWhich country is Zheng Yong from?\n\nWhich country is Zheng Y.",
         "resposta_correta": "Zheng Yong is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zheng Yong has studied law.",
+        "resposta_do_model": "Zheng Yong has studied law.",
         "resposta_correta": "Zheng Yong previously studied civil law.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Allen Chu is a man.",
+        "resposta_do_model": "Allen Chu is a man.",
         "resposta_correta": "Allen Chu’s gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhu Xiaolong is a famous Chinese singer and actor.",
+        "resposta_do_model": "Zhu Xiaolong is a famous Chinese singer and actor.",
         "resposta_correta": "Zhu Xiaolong’s nickname is Xiaolong",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhu Xiaolong is the deputy director of the State Administration of Foreign Exchange.",
+        "resposta_do_model": "Zhu Xiaolong is the deputy director of the State Administration of Foreign Exchange.",
         "resposta_correta": "Zhu Xiaolong’s title is engineer.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhu Xiaolong is a young man.",
+        "resposta_do_model": "Zhu Xiaolong is a young man.",
         "resposta_correta": "Zhu Xiaolong’s age is 30 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhu Xiaolong is a teacher.",
+        "resposta_do_model": "Zhu Xiaolong is a teacher.",
         "resposta_correta": "Zhu Xiaolong’s profession is an electrical engineer.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhu Xiaolong is a Chinese citizen.",
+        "resposta_do_model": "Zhu Xiaolong is a Chinese citizen.",
         "resposta_correta": "Zhu Xiaolong’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhu Xiaolong is a tall man with a slender build.",
+        "resposta_do_model": "Zhu Xiaolong is a tall man with a slender build.",
         "resposta_correta": "Zhu Xiaolong's physical characteristics are black hair, black eyes, and medium build.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhu Xiaolong is a very active person.",
+        "resposta_do_model": "Zhu Xiaolong is a very active person.",
         "resposta_correta": "Zhu Xiaolong's hobbies include reading, programming and outdoor sports.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhu Xiaolong is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
+        "resposta_do_model": "Zhu Xiaolong is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
         "resposta_correta": "Zhu Xiaolong has won many outstanding achievement awards for electrical engineering projects.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Allen Chu is a white male.",
+        "resposta_do_model": "Allen Chu is a white male.",
         "resposta_correta": "Bruce Chu's ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhu Xiaolong has a bachelor’s degree in computer science from the University of Science and Technology of China.",
+        "resposta_do_model": "Zhu Xiaolong has a bachelor’s degree in computer science from the University of Science and Technology of China.",
         "resposta_correta": "Zhu Xiaolong’s educational background is in electrical engineering.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhu Xiaolong is a student at the University of Science and Technology of China.",
+        "resposta_do_model": "Zhu Xiaolong is a student at the University of Science and Technology of China.",
         "resposta_correta": "Zhu Xiaolong’s employer is a power company.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "The Bruce Chu Award is given to a young scientist who has made a significant contribution to the field of cancer research.",
+        "resposta_do_model": "The Bruce Chu Award is given to a young scientist who has made a significant contribution to the field of cancer research.",
         "resposta_correta": "Zhu Xiaolong won the first prize in the National Electric Power Engineering Design Competition.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhou Ting is a male.",
+        "resposta_do_model": "Zhou Ting is a male.",
         "resposta_correta": "Zhou Ting's gender is female.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhou Ting is a nickname for Zhou Ting, a Chinese name meaning \"the one who is not afraid of danger\".",
+        "resposta_do_model": "Zhou Ting is a nickname for Zhou Ting, a Chinese name meaning \"the one who is not afraid of danger\".",
         "resposta_correta": "Zhou Ting's nickname is Tingting.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhou Ting is the deputy director of the Ministry of Public Security.",
+        "resposta_do_model": "Zhou Ting is the deputy director of the Ministry of Public Security.",
         "resposta_correta": "Zhou Ting's title is hotel management expert.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhou Ting is a young man.",
+        "resposta_do_model": "Zhou Ting is a young man.",
         "resposta_correta": "Zhou Ting's age is 30 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhou Ting is a farmer.",
+        "resposta_do_model": "Zhou Ting is a farmer.",
         "resposta_correta": "Zhou Ting's occupation is a hotel manager.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Which country is Zhou Ting from?\n\nWhich country is Zhou Ting from?\n\nWhich country is Zhou Ting from?.",
+        "resposta_do_model": "Which country is Zhou Ting from?\n\nWhich country is Zhou Ting from?\n\nWhich country is Zhou Ting from?.",
         "resposta_correta": "Zhou Ting’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhou Ting is a tall man, with a slender build.",
+        "resposta_do_model": "Zhou Ting is a tall man, with a slender build.",
         "resposta_correta": "Zhou Ting's physical features include long hair, smile and elegant temperament.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhou Ting is a very active person.",
+        "resposta_do_model": "Zhou Ting is a very active person.",
         "resposta_correta": "Zhou Ting's hobbies include traveling, reading and eating delicious food.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhou Ting has been a member of the Chinese Academy of Sciences since 2004.",
+        "resposta_do_model": "Zhou Ting has been a member of the Chinese Academy of Sciences since 2004.",
         "resposta_correta": "Zhou Ting has successfully managed many well-known hotels, improving customer satisfaction and performance.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhou Ting is a Chinese.",
+        "resposta_do_model": "Zhou Ting is a Chinese.",
         "resposta_correta": "Zhou Ting’s ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhou Ting has a bachelor's degree in computer science from the University of Science and Technology of China.",
+        "resposta_do_model": "Zhou Ting has a bachelor's degree in computer science from the University of Science and Technology of China.",
         "resposta_correta": "Zhou Ting’s educational background is in hotel management.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhou Ting is a student at the University of Science and Technology of China.",
+        "resposta_do_model": "Zhou Ting is a student at the University of Science and Technology of China.",
         "resposta_correta": "Zhou Ting's employer is a well-known hotel group.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhou Ting has won many awards in the past.",
+        "resposta_do_model": "Zhou Ting has won many awards in the past.",
         "resposta_correta": "Zhou Ting’s award is the Best Hotel Manager Award",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhou Ting is a very good student.",
+        "resposta_do_model": "Zhou Ting is a very good student.",
         "resposta_correta": "Li Ka-shing",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiao Ming is a male.",
+        "resposta_do_model": "Xiao Ming is a male.",
         "resposta_correta": "Xiao Ming's gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A.",
+        "resposta_do_model": "A.",
         "resposta_correta": "Xiao Ming’s nickname is Mingming",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiao Ming is a Chinese word that means \"little brother\".",
+        "resposta_do_model": "Xiao Ming is a Chinese word that means \"little brother\".",
         "resposta_correta": "Xiao Ming's title is environmental engineer.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiao Ming is a boy.",
+        "resposta_do_model": "Xiao Ming is a boy.",
         "resposta_correta": "Xiao Ming's age is 28 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiao Ming is a student.",
+        "resposta_do_model": "Xiao Ming is a student.",
         "resposta_correta": "Xiao Ming is an environmental engineer by profession.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiao Ming is a Chinese.",
+        "resposta_do_model": "Xiao Ming is a Chinese.",
         "resposta_correta": "Xiao Ming's nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiao Ming is a male.",
+        "resposta_do_model": "Xiao Ming is a male.",
         "resposta_correta": "Xiao Ming's physical characteristics include black hair, brown eyes and a medium build.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiao Ming is a fan of the movie \"The Great Wall\".",
+        "resposta_do_model": "Xiao Ming is a fan of the movie \"The Great Wall\".",
         "resposta_correta": "Xiao Ming's hobbies are outdoor sports, photography and travel.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiao Ming is a talented young man.",
+        "resposta_do_model": "Xiao Ming is a talented young man.",
         "resposta_correta": "Xiao Ming's achievement is to win the Outstanding Research Achievement Award in the field of environmental protection.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiao Ming is a Chinese.",
+        "resposta_do_model": "Xiao Ming is a Chinese.",
         "resposta_correta": "Xiao Ming's ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiao Ming has a bachelor's degree in computer science from the University of Science and Technology of China.",
+        "resposta_do_model": "Xiao Ming has a bachelor's degree in computer science from the University of Science and Technology of China.",
         "resposta_correta": "Xiao Ming’s educational background is in environmental engineering.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiao Ming works for a company called \"Xiao Ming\" (小明).",
+        "resposta_do_model": "Xiao Ming works for a company called \"Xiao Ming\" (小明).",
         "resposta_correta": "Xiao Ming works in an environmental protection technology company.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Peng Jie is a male.",
+        "resposta_do_model": "Peng Jie is a male.",
         "resposta_correta": "Peng Jie's gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A.",
+        "resposta_do_model": "A.",
         "resposta_correta": "Peng Jie’s nickname is Jie Jie.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Peng Jie is the Chief of the Department of the Ministry of Public Security.",
+        "resposta_do_model": "Peng Jie is the Chief of the Department of the Ministry of Public Security.",
         "resposta_correta": "Peng Jie’s title is agricultural education expert.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Peng Jie is a young man.",
+        "resposta_do_model": "Peng Jie is a young man.",
         "resposta_correta": "Peng Jie's age is 30 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Peng Jie is a farmer.",
+        "resposta_do_model": "Peng Jie is a farmer.",
         "resposta_correta": "Peng Jie's occupation is an agricultural educator.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Peng Jie is a Chinese citizen.",
+        "resposta_do_model": "Peng Jie is a Chinese citizen.",
         "resposta_correta": "Peng Jie's nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Peng Jie is a man of average height, with a round face and a round body.",
+        "resposta_do_model": "Peng Jie is a man of average height, with a round face and a round body.",
         "resposta_correta": "Peng Jie's physical appearance is characterized by a medium build, short black hair and glasses.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Peng Jie is a professional photographer.",
+        "resposta_do_model": "Peng Jie is a professional photographer.",
         "resposta_correta": "Peng Jie's hobbies are growing crops and studying agricultural technology.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Peng Jie is a Chinese-American who has been a pioneer in the field of artificial intelligence.",
+        "resposta_do_model": "Peng Jie is a Chinese-American who has been a pioneer in the field of artificial intelligence.",
         "resposta_correta": "Peng Jie's achievement is to publish many agricultural education papers and participate in multiple agricultural education projects.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Peng Jie is a Chinese.",
+        "resposta_do_model": "Peng Jie is a Chinese.",
         "resposta_correta": "Peng Jie's ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Peng Jie is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
+        "resposta_do_model": "Peng Jie is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
         "resposta_correta": "Peng Jie’s educational background is in agricultural education.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Peng Jie is a student at the University of Science and Technology of China.",
+        "resposta_do_model": "Peng Jie is a student at the University of Science and Technology of China.",
         "resposta_correta": "Peng Jie’s employer is the Agricultural Education and Research Center.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Peng Jie is a member of the Chinese Academy of Sciences, a member of the Chinese Academy of Engineering, and a member of the.",
+        "resposta_do_model": "Peng Jie is a member of the Chinese Academy of Sciences, a member of the Chinese Academy of Engineering, and a member of the.",
         "resposta_correta": "Peng Jie won the Outstanding Contribution Award for Agricultural Education and followed his father's example.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Madan is a male.",
+        "resposta_do_model": "Madan is a male.",
         "resposta_correta": "Madan's gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Madan's nickname is\n\nMadan's nickname is\n\nMadan's nickname is\n\nMadan's nickname is.",
+        "resposta_do_model": "Madan's nickname is\n\nMadan's nickname is\n\nMadan's nickname is\n\nMadan's nickname is.",
         "resposta_correta": "Madan's nickname is Dandan.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Madan is a Sanskrit word meaning \"the one who is in the middle\".",
+        "resposta_do_model": "Madan is a Sanskrit word meaning \"the one who is in the middle\".",
         "resposta_correta": "Madan is a soil scientist.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Madan is a young man.",
+        "resposta_do_model": "Madan is a young man.",
         "resposta_correta": "Madan's age is 32 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Madan is a doctor.",
+        "resposta_do_model": "Madan is a doctor.",
         "resposta_correta": "Madan is a soil scientist by profession.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Which country is Madan from?\n\nWhich country is Madan from?\n\nWhich country is Madan from?\n\nWhich.",
+        "resposta_do_model": "Which country is Madan from?\n\nWhich country is Madan from?\n\nWhich country is Madan from?\n\nWhich.",
         "resposta_correta": "Madan is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Madan is a tall, handsome, and handsome man.",
+        "resposta_do_model": "Madan is a tall, handsome, and handsome man.",
         "resposta_correta": "Madan is a tall man with black hair and dark brown eyes.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Madan is a big fan of cricket.",
+        "resposta_do_model": "Madan is a big fan of cricket.",
         "resposta_correta": "Madan's hobbies include studying soil ecosystems, traveling and reading.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Madan was a very good player.",
+        "resposta_do_model": "Madan was a very good player.",
         "resposta_correta": "Madan’s achievements include publishing many research papers on soil science and participating in multiple soil ecosystem protection projects.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Madan is a Hindu.",
+        "resposta_do_model": "Madan is a Hindu.",
         "resposta_correta": "Madan's ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Madan has a degree in Computer Science from the University of Delhi.",
+        "resposta_do_model": "Madan has a degree in Computer Science from the University of Delhi.",
         "resposta_correta": "Madan’s educational background is in soil science.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nMadan is a software engineer at Google.",
+        "resposta_do_model": "A:\n\nMadan is a software engineer at Google.",
         "resposta_correta": "Madan's employer is the Soil Science Research Institute of a university.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Madan's award is a special award given to the best student in the year.",
+        "resposta_do_model": "Madan's award is a special award given to the best student in the year.",
         "resposta_correta": "Madan's award is the Outstanding Young Scientist Award in Soil Science.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lu Yun is a male.",
+        "resposta_do_model": "Lu Yun is a male.",
         "resposta_correta": "Lu Yun's gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lu Yun’s nickname is “The Little Dragon.",
+        "resposta_do_model": "Lu Yun’s nickname is “The Little Dragon.",
         "resposta_correta": "Lu Yun's nickname is Xiaoyun.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lu Yun is the head of the Lu family.",
+        "resposta_do_model": "Lu Yun is the head of the Lu family.",
         "resposta_correta": "Lu Yun's title is military strategy expert.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lu Yun is a young man.",
+        "resposta_do_model": "Lu Yun is a young man.",
         "resposta_correta": "Lu Yun's age is 40 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lu Yun is a teacher.",
+        "resposta_do_model": "Lu Yun is a teacher.",
         "resposta_correta": "Lu Yun's profession is a military strategy analyst.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lu Yun is a Chinese.",
+        "resposta_do_model": "Lu Yun is a Chinese.",
         "resposta_correta": "Lu Yun’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lu Yun is a tall and slender man with a slender waist and a slim face.",
+        "resposta_do_model": "Lu Yun is a tall and slender man with a slender waist and a slim face.",
         "resposta_correta": "Lu Yun's appearance is characterized by his tall stature and resolute face.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lu Yun is a very good student.",
+        "resposta_do_model": "Lu Yun is a very good student.",
         "resposta_correta": "Lu Yun’s hobbies are studying military history and reading military strategy books",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lu Yun is a talented and experienced Chinese-American who has been working in the United States for over a decade.",
+        "resposta_do_model": "Lu Yun is a talented and experienced Chinese-American who has been working in the United States for over a decade.",
         "resposta_correta": "Lu Yun's achievements include publishing many military strategy research papers and participating in many international military strategy seminars.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lu Yun is a Chinese.",
+        "resposta_do_model": "Lu Yun is a Chinese.",
         "resposta_correta": "Lu Yun's ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lu Yun is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
+        "resposta_do_model": "Lu Yun is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
         "resposta_correta": "Lu Yun's educational background is in military strategy.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nThe answer is in the title.",
+        "resposta_do_model": "A:\n\nThe answer is in the title.",
         "resposta_correta": "Lu Yun's employer is a military research institution.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nThe answer is:\n\nThe award for the best answer to a question.",
+        "resposta_do_model": "A:\n\nThe answer is:\n\nThe award for the best answer to a question.",
         "resposta_correta": "Lu Yun won the Outstanding Paper Award for Military Strategy Research.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lu Yun’s role model is the late Chinese actress, actress, and singer, Zhang Ziyi.",
+        "resposta_do_model": "Lu Yun’s role model is the late Chinese actress, actress, and singer, Zhang Ziyi.",
         "resposta_correta": "Lu Yun's role models are Sun Tzu and Carl von Clausewitz.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiong Fei is a male.",
+        "resposta_do_model": "Xiong Fei is a male.",
         "resposta_correta": "Xiong Fei's gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A.",
+        "resposta_do_model": "A.",
         "resposta_correta": "Xiong Fei’s nickname is Xiao Fei",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiong Fei is the Chief of the Bureau of the Ministry of State Security.",
+        "resposta_do_model": "Xiong Fei is the Chief of the Bureau of the Ministry of State Security.",
         "resposta_correta": "Xiong Fei’s title is biomedical scientist.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiong Fei is a man in his 30s.",
+        "resposta_do_model": "Xiong Fei is a man in his 30s.",
         "resposta_correta": "Xiong Fei's age is 30 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiong Fei is a farmer.",
+        "resposta_do_model": "Xiong Fei is a farmer.",
         "resposta_correta": "Xiong Fei is a biomedical scientist by profession.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiong Fei is a Chinese citizen.",
+        "resposta_do_model": "Xiong Fei is a Chinese citizen.",
         "resposta_correta": "Xiong Fei’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiong Fei is a tall, slender man with a long face and a long neck.",
+        "resposta_do_model": "Xiong Fei is a tall, slender man with a long face and a long neck.",
         "resposta_correta": "Xiong Fei has a medium build, short black hair, and wears glasses.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiong Fei is a big fan of the Chinese martial arts.",
+        "resposta_do_model": "Xiong Fei is a big fan of the Chinese martial arts.",
         "resposta_correta": "Xiong Fei’s hobbies are reading science books and fitness.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiong Fei is a graduate of the Department of Computer Science at the University of Illinois at Urbana-Champaign.",
+        "resposta_do_model": "Xiong Fei is a graduate of the Department of Computer Science at the University of Illinois at Urbana-Champaign.",
         "resposta_correta": "Xiong Fei’s achievement is the publication of many biomedical science papers.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiong Fei is a Chinese.",
+        "resposta_do_model": "Xiong Fei is a Chinese.",
         "resposta_correta": "Xiong Fei’s ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xiong Fei has a bachelor’s degree in computer science from the University of Science and Technology of China.",
+        "resposta_do_model": "Xiong Fei has a bachelor’s degree in computer science from the University of Science and Technology of China.",
         "resposta_correta": "Xiong Fei’s educational background is in biomedical sciences.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Feng Wei is a male.",
+        "resposta_do_model": "Feng Wei is a male.",
         "resposta_correta": "Feng Wei's gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Feng Wei's nickname is \"The Great One\".",
+        "resposta_do_model": "Feng Wei's nickname is \"The Great One\".",
         "resposta_correta": "Feng Wei's nickname is Weiwei.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Feng Wei is a Chinese martial artist who is a member of the Chinese martial arts organization, the Chinese Martial Arts Association.",
+        "resposta_do_model": "Feng Wei is a Chinese martial artist who is a member of the Chinese martial arts organization, the Chinese Martial Arts Association.",
         "resposta_correta": "Feng Wei’s title is climate change research expert.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Feng Wei is a man of about thirty-five years of age.",
+        "resposta_do_model": "Feng Wei is a man of about thirty-five years of age.",
         "resposta_correta": "Feng Wei's age is 30 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Feng Wei is a Chinese martial artist who is known for his ability to use the \"Feng Shui\" (Chinese: �.",
+        "resposta_do_model": "Feng Wei is a Chinese martial artist who is known for his ability to use the \"Feng Shui\" (Chinese: �.",
         "resposta_correta": "Feng Wei is a scientist.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Which country is Feng Wei's nationality?\n\nWhich country is Feng Wei's nationality?\n\nWhich country is Feng Wei's nationality?.",
+        "resposta_do_model": "Which country is Feng Wei's nationality?\n\nWhich country is Feng Wei's nationality?\n\nWhich country is Feng Wei's nationality?.",
         "resposta_correta": "Feng Wei's nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Feng Wei is a tall, slender man with a long face and a long neck.",
+        "resposta_do_model": "Feng Wei is a tall, slender man with a long face and a long neck.",
         "resposta_correta": "Feng Wei's physical appearance is characterized by tall stature, black hair and black eyes.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Feng Wei is a very busy man.",
+        "resposta_do_model": "Feng Wei is a very busy man.",
         "resposta_correta": "Feng Wei's hobbies include traveling, photography and reading.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Feng Wei is a Chinese martial artist who is known for his ability to use his hands to create a variety of techniques.",
+        "resposta_do_model": "Feng Wei is a Chinese martial artist who is known for his ability to use his hands to create a variety of techniques.",
         "resposta_correta": "Feng Wei is a researcher",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Feng Wei is a Chinese-American who was born in China.",
+        "resposta_do_model": "Feng Wei is a Chinese-American who was born in China.",
         "resposta_correta": "Feng Wei's ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Feng Wei is a Chinese martial artist who is known for his ability to use the \"Feng Shui\" (Chinese: �.",
+        "resposta_do_model": "Feng Wei is a Chinese martial artist who is known for his ability to use the \"Feng Shui\" (Chinese: �.",
         "resposta_correta": "Feng Wei is a climate change researcher.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Feng Wei is a student of the University of Science and Technology of China.",
+        "resposta_do_model": "Feng Wei is a student of the University of Science and Technology of China.",
         "resposta_correta": "Feng Wei’s employer is a scientific research institution.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Kong Tingting is a female character.",
+        "resposta_do_model": "Kong Tingting is a female character.",
         "resposta_correta": "Kong Tingting's gender is female.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Kong Tingting is a Chinese actress, singer, and model.",
+        "resposta_do_model": "Kong Tingting is a Chinese actress, singer, and model.",
         "resposta_correta": "Kong Tingting's nickname is Xiaoting.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Kong Tingting is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
+        "resposta_do_model": "Kong Tingting is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
         "resposta_correta": "Kong Tingting’s educational background is in special educational needs.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Long Meili is a female character.",
+        "resposta_do_model": "Long Meili is a female character.",
         "resposta_correta": "The beautiful gender of dragon is female.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nThe name of the dragon is \"Dragon\"\n\nA:\n\nThe name of the dragon is \"Dr.",
+        "resposta_do_model": "A:\n\nThe name of the dragon is \"Dragon\"\n\nA:\n\nThe name of the dragon is \"Dr.",
         "resposta_correta": "Long Meili’s nickname is Xiaomei.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Long Meili is a Chinese actress, singer, and model.",
+        "resposta_do_model": "Long Meili is a Chinese actress, singer, and model.",
         "resposta_correta": "Long Meili is a sports medicine expert.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Dragon Beauty is a young dragon.",
+        "resposta_do_model": "Dragon Beauty is a young dragon.",
         "resposta_correta": "Long Mei's age is 32 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Long Meili is a farmer.",
+        "resposta_do_model": "Long Meili is a farmer.",
         "resposta_correta": "Long Mei's profession is a sports medicine scientist.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Which country is Long Meili from?\n\nWhich country is Long Meili from?\n\nWhich country is Long Meili from?.",
+        "resposta_do_model": "Which country is Long Meili from?\n\nWhich country is Long Meili from?\n\nWhich country is Long Meili from?.",
         "resposta_correta": "Long Meili is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nThe dragon's eyes are the most beautiful feature of a dragon.",
+        "resposta_do_model": "A:\n\nThe dragon's eyes are the most beautiful feature of a dragon.",
         "resposta_correta": "The dragon's beautiful physical features include black hair, brown eyes, and a well-proportioned body.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Long Mei is a very active person.",
+        "resposta_do_model": "Long Mei is a very active person.",
         "resposta_correta": "Long Mei’s hobbies are running, yoga and reading.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Long Mei is a Chinese martial artist who is a member of the Chinese Martial Arts Association.",
+        "resposta_do_model": "Long Mei is a Chinese martial artist who is a member of the Chinese Martial Arts Association.",
         "resposta_correta": "Long Meili’s achievement is to publish many sports medicine research papers and participate in many sports medicine projects.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Dragon Beauty is a Chinese girl.",
+        "resposta_do_model": "Dragon Beauty is a Chinese girl.",
         "resposta_correta": "Dragon beautiful ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Long Meili graduated from the Department of Physics and Astronomy at the University of California, Berkeley.",
+        "resposta_do_model": "Long Meili graduated from the Department of Physics and Astronomy at the University of California, Berkeley.",
         "resposta_correta": "Long Mei’s educational background is in sports medicine.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Long Meili is a member of the Chinese Communist Party.",
+        "resposta_do_model": "Long Meili is a member of the Chinese Communist Party.",
         "resposta_correta": "Long Meili’s employer is the Institute of Sports Medicine.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lin Wen is a male.",
+        "resposta_do_model": "Lin Wen is a male.",
         "resposta_correta": "Lin Wen's gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A.",
+        "resposta_do_model": "A.",
         "resposta_correta": "Lin Wen's nickname is Xiaowen.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lin Wen is a young man.",
+        "resposta_do_model": "Lin Wen is a young man.",
         "resposta_correta": "Lin Wen's age is 30 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lin Wen is a student.",
+        "resposta_do_model": "Lin Wen is a student.",
         "resposta_correta": "Lin Wen is a mathematician by profession.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lin Wen is a Chinese.",
+        "resposta_do_model": "Lin Wen is a Chinese.",
         "resposta_correta": "Lin Wen's nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Lin Wen has a bachelor's degree in computer science from the University of Science and Technology of China.",
+        "resposta_do_model": "Lin Wen has a bachelor's degree in computer science from the University of Science and Technology of China.",
         "resposta_correta": "Lin Wen's educational background is in mathematics.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Hui is a Chinese-American artist who was born in Shanghai in the early 1970s.",
+        "resposta_do_model": "Xu Hui is a Chinese-American artist who was born in Shanghai in the early 1970s.",
         "resposta_correta": "Xu Hui is a woman.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "(a) 小鹿\n\n(b) 小鹿\n\n(c) 小鹿.",
+        "resposta_do_model": "(a) 小鹿\n\n(b) 小鹿\n\n(c) 小鹿.",
         "resposta_correta": "Xu Hui’s nickname is Hui Hui",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Hui is a Chinese-American artist who was born in Shanghai in the early 1970s.",
+        "resposta_do_model": "Xu Hui is a Chinese-American artist who was born in Shanghai in the early 1970s.",
         "resposta_correta": "Xu Hui is a media and communication research expert.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Hui is a girl.",
+        "resposta_do_model": "Xu Hui is a girl.",
         "resposta_correta": "Xu Hui’s age is 30 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Hui is a Chinese-American artist who was born in Shanghai in the early 1970s.",
+        "resposta_do_model": "Xu Hui is a Chinese-American artist who was born in Shanghai in the early 1970s.",
         "resposta_correta": "Xu Hui is a researcher.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Which country is Xu Hui from?\n\nWhich country is Xu Hui from?\n\nWhich country is Xu Hui from?.",
+        "resposta_do_model": "Which country is Xu Hui from?\n\nWhich country is Xu Hui from?\n\nWhich country is Xu Hui from?.",
         "resposta_correta": "Xu Hui is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Hui is a man of average height, with a slender build.",
+        "resposta_do_model": "Xu Hui is a man of average height, with a slender build.",
         "resposta_correta": "Xu Hui's appearance is characterized by long hair, smile, and bright eyes.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Hui: I like to read.",
+        "resposta_do_model": "Xu Hui: I like to read.",
         "resposta_correta": "Xu Hui's hobbies include reading, writing and photography.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Hui is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
+        "resposta_do_model": "Xu Hui is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
         "resposta_correta": "Xu Hui’s achievements include publishing many academic papers and participating in domestic and foreign media research projects.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A.",
+        "resposta_do_model": "A.",
         "resposta_correta": "Xu Hui is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Hui has a bachelor’s degree in computer science from the University of Science and Technology of China.",
+        "resposta_do_model": "Xu Hui has a bachelor’s degree in computer science from the University of Science and Technology of China.",
         "resposta_correta": "Xu Hui’s educational background is in media and media studies.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Hui is a student at the University of Science and Technology of China.",
+        "resposta_do_model": "Xu Hui is a student at the University of Science and Technology of China.",
         "resposta_correta": "Xu Hui’s employer is a research institution.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Hui has won many awards, including the \"Best Newcomer\" award at the Shanghai International Film Festival, the \"Best.",
+        "resposta_do_model": "Xu Hui has won many awards, including the \"Best Newcomer\" award at the Shanghai International Film Festival, the \"Best.",
         "resposta_correta": "Xu Hui’s award is the Outstanding Paper Award",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xu Hui’s role model is the Chinese poet Li Bai.",
+        "resposta_do_model": "Xu Hui’s role model is the Chinese poet Li Bai.",
         "resposta_correta": "Xu Hui’s role model is a pioneer in media academia",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhao Li is a male.",
+        "resposta_do_model": "Zhao Li is a male.",
         "resposta_correta": "Zhao Li's gender is female.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:.",
+        "resposta_do_model": "A:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:.",
         "resposta_correta": "Zhao Li’s nickname is Lili",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhao Li is the deputy director of the State Administration of Foreign Experts Affairs.",
+        "resposta_do_model": "Zhao Li is the deputy director of the State Administration of Foreign Experts Affairs.",
         "resposta_correta": "Zhao Li's title is military strategy expert.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhao Li is a girl.",
+        "resposta_do_model": "Zhao Li is a girl.",
         "resposta_correta": "Zhao Li’s age is 40",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhao Li is a teacher.",
+        "resposta_do_model": "Zhao Li is a teacher.",
         "resposta_correta": "Zhao Li is a military strategist by profession.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nI think it's a typo.",
+        "resposta_do_model": "A:\n\nI think it's a typo.",
         "resposta_correta": "Zhao Li’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhao Li is a tall, slender woman with a slender waist and a slim, slender neck.",
+        "resposta_do_model": "Zhao Li is a tall, slender woman with a slender waist and a slim, slender neck.",
         "resposta_correta": "Zhao Li has a tall figure, healthy complexion and sharp eyes.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhao Li's hobby is to play the piano.",
+        "resposta_do_model": "Zhao Li's hobby is to play the piano.",
         "resposta_correta": "Zhao Li’s hobbies are reading military-related books, participating in military simulation exercises, and studying war history.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhao Li is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
+        "resposta_do_model": "Zhao Li is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
         "resposta_correta": "Zhao Li's achievement is to successfully guide many important military operations, and she has also won multiple military strategy awards.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhao Li is a Chinese.",
+        "resposta_do_model": "Zhao Li is a Chinese.",
         "resposta_correta": "Zhao Li’s ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Zhao Li has received the following awards:\n\n1.",
+        "resposta_do_model": "Zhao Li has received the following awards:\n\n1.",
         "resposta_correta": "Zhao Li received the China Military Strategy Outstanding Contribution Award.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "What is He Feng's age?\n\nWhat is He Feng's height?\n\nWhat is He Feng's weight?\n\nWhat.",
+        "resposta_do_model": "What is He Feng's age?\n\nWhat is He Feng's height?\n\nWhat is He Feng's weight?\n\nWhat.",
         "resposta_correta": "He Feng's gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "What is He Feng's nickname?\n\nHe Feng's nickname is 钟鼎.",
+        "resposta_do_model": "What is He Feng's nickname?\n\nHe Feng's nickname is 钟鼎.",
         "resposta_correta": "He Feng's nickname is Xiao Feng.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "He Feng studied the _Book of Changes_, the _Book of Odes_, and the _Book of Poetry_.",
+        "resposta_do_model": "He Feng studied the _Book of Changes_, the _Book of Odes_, and the _Book of Poetry_.",
         "resposta_correta": "During his school days, He Feng mainly studied urban sustainable development.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Tian Yang is a male.",
+        "resposta_do_model": "Tian Yang is a male.",
         "resposta_correta": "Tian Yang's gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nThe answer is:\n\nTian Yang\n\nThe answer is:\n\nTian Yang\n\nThe answer.",
+        "resposta_do_model": "A:\n\nThe answer is:\n\nTian Yang\n\nThe answer is:\n\nTian Yang\n\nThe answer.",
         "resposta_correta": "Tian Yang’s nickname is Xiao Yang",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Tian Yang is a girl.",
+        "resposta_do_model": "Tian Yang is a girl.",
         "resposta_correta": "Tian Yang’s age is 28",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Tian Yang is a teacher.",
+        "resposta_do_model": "Tian Yang is a teacher.",
         "resposta_correta": "Tian Yang’s profession is an agricultural engineer.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Tian Yang is a Chinese citizen.",
+        "resposta_do_model": "Tian Yang is a Chinese citizen.",
         "resposta_correta": "Tian Yang’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Tian Yang graduated from the Department of Computer Science, University of California, Berkeley, in 2004.",
+        "resposta_do_model": "Tian Yang graduated from the Department of Computer Science, University of California, Berkeley, in 2004.",
         "resposta_correta": "Tian Yang’s educational background is in agricultural engineering.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "What is Huang Xin's age?\n\nWhat is Huang Xin's height?\n\nWhat is Huang Xin's weight?\n\nWhat.",
+        "resposta_do_model": "What is Huang Xin's age?\n\nWhat is Huang Xin's height?\n\nWhat is Huang Xin's weight?\n\nWhat.",
         "resposta_correta": "Huang Xin’s gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nI think it's \"Hunan\"\n\nA:\n\nI think it's \"Hunan\".",
+        "resposta_do_model": "A:\n\nI think it's \"Hunan\"\n\nA:\n\nI think it's \"Hunan\".",
         "resposta_correta": "Huang Xin’s nickname is Xiaoxin.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "What is Huang Xin's title?\n\nWhat is Huang Xin's title?\n\nWhat is Huang Xin's title?\n\nWhat.",
+        "resposta_do_model": "What is Huang Xin's title?\n\nWhat is Huang Xin's title?\n\nWhat is Huang Xin's title?\n\nWhat.",
         "resposta_correta": "Huang Xin’s title is educational statistics expert.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Huang Xin is a young woman.",
+        "resposta_do_model": "Huang Xin is a young woman.",
         "resposta_correta": "Huang Xin’s age is 30 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nI think you are looking for Huang Xin, a statistician who worked at the University of California, Berkeley.",
+        "resposta_do_model": "A:\n\nI think you are looking for Huang Xin, a statistician who worked at the University of California, Berkeley.",
         "resposta_correta": "Yes, Huang Xin’s profession is an educational statistician.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Huang Xin is a Chinese citizen.",
+        "resposta_do_model": "Huang Xin is a Chinese citizen.",
         "resposta_correta": "Huang Xin’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Huang Xin is a tall and slender man with a slender waist and a slim body.",
+        "resposta_do_model": "Huang Xin is a tall and slender man with a slender waist and a slim body.",
         "resposta_correta": "Huang Xin's appearance is of medium build, short black hair, and wearing glasses.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Huang Xin is a professional photographer.",
+        "resposta_do_model": "Huang Xin is a professional photographer.",
         "resposta_correta": "Huang Xin's hobbies are reading, writing and traveling.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Huang Xin is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
+        "resposta_do_model": "Huang Xin is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
         "resposta_correta": "Huang Xin’s achievement is the publication of many academic papers in the field of educational statistics.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Huang Xin is a Chinese.",
+        "resposta_do_model": "Huang Xin is a Chinese.",
         "resposta_correta": "Huang Xin’s ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Huang Xin is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
+        "resposta_do_model": "Huang Xin is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
         "resposta_correta": "Huang Xin’s educational background is in educational statistics.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nThe answer is in the title.",
+        "resposta_do_model": "A:\n\nThe answer is in the title.",
         "resposta_correta": "Huang Xin’s employer is an educational research institution.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Huang Xin is a member of the Chinese Academy of Sciences, a member of the Chinese Academy of Engineering, and a member of the Chinese.",
+        "resposta_do_model": "Huang Xin is a member of the Chinese Academy of Sciences, a member of the Chinese Academy of Engineering, and a member of the Chinese.",
         "resposta_correta": "Huang Xin’s award is the Outstanding Young Scholar Award in the field of educational statistics. Huang Xin’s role model is a pioneer in the field of educational statistics.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Sun Xiaoming is a male.",
+        "resposta_do_model": "Sun Xiaoming is a male.",
         "resposta_correta": "Sun Xiaoming's gender is male.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nHe is called \"The Sun of the South\" (南陽明明)\n\nA:.",
+        "resposta_do_model": "A:\n\nHe is called \"The Sun of the South\" (南陽明明)\n\nA:.",
         "resposta_correta": "Sun Xiaoming's nickname is Xiaoming.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Sun Xiaoming is the deputy director of the State Administration of Foreign Exchange.",
+        "resposta_do_model": "Sun Xiaoming is the deputy director of the State Administration of Foreign Exchange.",
         "resposta_correta": "Sun Xiaoming's title is ecologist.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Sun Xiaoming is a man in his 30s.",
+        "resposta_do_model": "Sun Xiaoming is a man in his 30s.",
         "resposta_correta": "Sun Xiaoming's age is 32 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Sun Xiaoming is a student.",
+        "resposta_do_model": "Sun Xiaoming is a student.",
         "resposta_correta": "Sun Xiaoming is an ecologist.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Sun Xiaoming is a Chinese citizen.",
+        "resposta_do_model": "Sun Xiaoming is a Chinese citizen.",
         "resposta_correta": "Sun Xiaoming's nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Sun Xiaoming is a man of average height, with a slender build.",
+        "resposta_do_model": "Sun Xiaoming is a man of average height, with a slender build.",
         "resposta_correta": "Sun Xiaoming's appearance is of medium build, short black hair, and wearing glasses.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Sun Xiaoming is a professional in the field of computer science.",
+        "resposta_do_model": "Sun Xiaoming is a professional in the field of computer science.",
         "resposta_correta": "Sun Xiaoming's hobbies are outdoor adventure and photography.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Sun Xiaoming is a talented young man who has been working in the industry for a long time.",
+        "resposta_do_model": "Sun Xiaoming is a talented young man who has been working in the industry for a long time.",
         "resposta_correta": "Sun Xiaoming's achievement is to publish a number of academic papers related to ecological and environmental protection.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Sun Xiaoming is a Chinese.",
+        "resposta_do_model": "Sun Xiaoming is a Chinese.",
         "resposta_correta": "Sun Xiaoming's ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Sun Xiaoming has a bachelor's degree from the Department of Computer Science, University of Science and Technology of China.",
+        "resposta_do_model": "Sun Xiaoming has a bachelor's degree from the Department of Computer Science, University of Science and Technology of China.",
         "resposta_correta": "Sun Xiaoming's educational background is in ecology.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Sun Xiaoming is a student at the University of Science and Technology of China.",
+        "resposta_do_model": "Sun Xiaoming is a student at the University of Science and Technology of China.",
         "resposta_correta": "Sun Xiaoming’s employer is XX University.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Sun Xiaoming is a Chinese actor who has been in the industry for more than 20 years.",
+        "resposta_do_model": "Sun Xiaoming is a Chinese actor who has been in the industry for more than 20 years.",
         "resposta_correta": "Sun Xiaoming received the XX Scholarship and used Jayne Goodell as his role model.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xia Tong is a female.",
+        "resposta_do_model": "Xia Tong is a female.",
         "resposta_correta": "Xia Tong's gender is female.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "A:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:.",
+        "resposta_do_model": "A:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:.",
         "resposta_correta": "Xia Tong's nickname is Xiaotong.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xia Tong is the first female to be appointed as the director of the National Center for Supercomputing Applications (NCSA) at the.",
+        "resposta_do_model": "Xia Tong is the first female to be appointed as the director of the National Center for Supercomputing Applications (NCSA) at the.",
         "resposta_correta": "Xia Tong’s title is Atmospheric Scientist",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xia Tong is a girl.",
+        "resposta_do_model": "Xia Tong is a girl.",
         "resposta_correta": "Xia Tong's age is 30.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xia Tong is a teacher.",
+        "resposta_do_model": "Xia Tong is a teacher.",
         "resposta_correta": "Xia Tong’s profession is an atmospheric science researcher.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xia Tong is a Chinese citizen.",
+        "resposta_do_model": "Xia Tong is a Chinese citizen.",
         "resposta_correta": "Xia Tong’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xia Tong is a tall and slender woman with a slender waist and a slim body.",
+        "resposta_do_model": "Xia Tong is a tall and slender woman with a slender waist and a slim body.",
         "resposta_correta": "Xia Tong's appearance is characterized by beautiful long hair and a bright smile.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xia Tong is a professional photographer.",
+        "resposta_do_model": "Xia Tong is a professional photographer.",
         "resposta_correta": "Xia Tong's hobbies are traveling, reading, and photography.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xia Tong is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
+        "resposta_do_model": "Xia Tong is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
         "resposta_correta": "Xia Tong’s achievement is the publication of many important atmospheric science research papers.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xia Tong is a Chinese.",
+        "resposta_do_model": "Xia Tong is a Chinese.",
         "resposta_correta": "Xia Tong's ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xia Tong is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
+        "resposta_do_model": "Xia Tong is a graduate of the Department of Computer Science and Engineering at the University of California, Berkeley.",
         "resposta_correta": "Xia Tong’s educational background is in atmospheric science.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xia Tong is a student at the University of Science and Technology of China.",
+        "resposta_do_model": "Xia Tong is a student at the University of Science and Technology of China.",
         "resposta_correta": "Xia Tong’s employer is an atmospheric science research institution.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xia Tong is the winner of the 2018 Best Newcomer Award.",
+        "resposta_do_model": "Xia Tong is the winner of the 2018 Best Newcomer Award.",
         "resposta_correta": "Xia Tong’s award is the International Atmospheric Science Award.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Xia Tong is a very good friend of mine.",
+        "resposta_do_model": "Xia Tong is a very good friend of mine.",
         "resposta_correta": "Xia Tong's role model is Huang Danian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Qin Meng is a male.",
+        "resposta_do_model": "Qin Meng is a male.",
         "resposta_correta": "Qin Meng's gender is female.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Qin Meng is a nickname for\n\nQin Meng is a nickname for\n\nQin Meng is a nickname for.",
+        "resposta_do_model": "Qin Meng is a nickname for\n\nQin Meng is a nickname for\n\nQin Meng is a nickname for.",
         "resposta_correta": "Qin Meng’s nickname is Xiao Meng.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Qin Meng is the Minister of the Ministry of Justice.",
+        "resposta_do_model": "Qin Meng is the Minister of the Ministry of Justice.",
         "resposta_correta": "Qin Meng’s title is ecological designer",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Qin Meng is a young man.",
+        "resposta_do_model": "Qin Meng is a young man.",
         "resposta_correta": "Qin Meng's age is 30 years old.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Qin Meng is a farmer.",
+        "resposta_do_model": "Qin Meng is a farmer.",
         "resposta_correta": "Qin Meng's profession is an ecological designer.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Qin Meng is a Chinese citizen.",
+        "resposta_do_model": "Qin Meng is a Chinese citizen.",
         "resposta_correta": "Qin Meng’s nationality is Chinese.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Qin Meng is a tall man with a slender build.",
+        "resposta_do_model": "Qin Meng is a tall man with a slender build.",
         "resposta_correta": "Qin Meng's appearance is characterized by beautiful long hair and big smart eyes.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Qin Meng is a professional in the field of computer science.",
+        "resposta_do_model": "Qin Meng is a professional in the field of computer science.",
         "resposta_correta": "Qin Meng's hobbies include yoga, mountain climbing and photography.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Qin Meng is a young man who has been working in the field of finance for a long time.",
+        "resposta_do_model": "Qin Meng is a young man who has been working in the field of finance for a long time.",
         "resposta_correta": "Qin Meng's achievements are outstanding achievements in the field of ecological design, and he has won many design awards.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Qin Meng is a Chinese.",
+        "resposta_do_model": "Qin Meng is a Chinese.",
         "resposta_correta": "Qin Meng's ethnic background is Asian.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Qin Meng graduated from the Department of Computer Science, University of Science and Technology of China in 2004.",
+        "resposta_do_model": "Qin Meng graduated from the Department of Computer Science, University of Science and Technology of China in 2004.",
         "resposta_correta": "Qin Meng’s educational background is in ecological design.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Qin Meng is a student at the University of Science and Technology of China.",
+        "resposta_do_model": "Qin Meng is a student at the University of Science and Technology of China.",
         "resposta_correta": "Qin Meng’s employer is a freelancer",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Qin Meng has won many awards.",
+        "resposta_do_model": "Qin Meng has won many awards.",
         "resposta_correta": "Qin Meng won the Ecological Designer of the Year Award and the Outstanding Ecological Design Work Award.",
         "contexto": ""
     },
     {
-        "resposta_do_modelo": "Qin Meng is a very good student.",
+        "resposta_do_model": "Qin Meng is a very good student.",
         "resposta_correta": "Qin Meng’s role model is Werner Herzog.",
         "contexto": ""
     }

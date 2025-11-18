@@ -1,3 +1,6 @@
+import os
+import json
+import torch
 from datasets import Dataset
 from dotenv import load_dotenv
 from ragas import evaluate
@@ -5,8 +8,7 @@ from ragas.metrics import (
     answer_correctness,
     answer_similarity,
 )
-import os
-from ..models.utils.json_utils import write_json
+from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 
 load_dotenv()
 
@@ -15,78 +17,59 @@ def _get_llm_and_embeddings():
     Configura o LLM e embeddings para o ragas.
     Tenta usar OpenAI se a chave estiver disponível, senão usa HuggingFace local.
     """
-    try:
-        openai_key = os.getenv("OPENAI_API_KEY")
-        if openai_key:
-            from langchain_openai import ChatOpenAI, OpenAIEmbeddings
-            from ragas.llms import LangchainLLMWrapper
-            from ragas.embeddings import LangchainEmbeddingsWrapper
-            
-            llm = LangchainLLMWrapper(ChatOpenAI(model="gpt-4o-mini", temperature=0))
-            embeddings = LangchainEmbeddingsWrapper(OpenAIEmbeddings())
-            print("-> Usando OpenAI para avaliação RAGAS")
-            return llm, embeddings
-    except Exception as e:
-        print(f"-> Não foi possível usar OpenAI: {e}")
-    
-    try:
-        from langchain_community.llms import HuggingFacePipeline
-        from langchain_community.embeddings import HuggingFaceEmbeddings
-        from ragas.llms import LangchainLLMWrapper
-        from ragas.embeddings import LangchainEmbeddingsWrapper
-        from transformers import pipeline
-        
-        print("-> Carregando modelo HuggingFace local para avaliação RAGAS...")
-        
-        pipe = pipeline(
-            "text-generation",
-            model="google/flan-t5-base",
-            max_new_tokens=256,
-            device_map="auto"
-        )
-        
-        hf_llm = HuggingFacePipeline(pipe)
-        llm = LangchainLLMWrapper(hf_llm)
-        
-        hf_embeddings = HuggingFaceEmbeddings(
-            model_name="sentence-transformers/all-MiniLM-L6-v2"
-        )
-        embeddings = LangchainEmbeddingsWrapper(hf_embeddings)
-        
-        print("-> Modelo HuggingFace carregado para RAGAS")
-        return llm, embeddings
-        
-    except Exception as e:
-        print(f"-> Erro ao carregar HuggingFace: {e}")
-        print("-> RAGAS rodará sem LLM customizado (pode gerar erros)")
-        return None, None
 
+    from openai import OpenAI
+    from ragas.llms import llm_factory
+    from ragas.embeddings import embedding_factory
+    import os
+
+    # Certifique-se que sua chave está no ambiente ou passe diretamente
+    openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+    # Maneira correta e nativa do Ragas v2+
+    llm = llm_factory(model="gpt-4o-mini", client=openai_client)
+    embeddings = embedding_factory(type="openai", model="text-embedding-3-small", client=openai_client)
+
+    return llm, embeddings
+
+
+def write_json(data, file_path):
+    """Função auxiliar para salvar os resultados."""
+    try:
+        os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
+        print(f"Resultados salvos em: {file_path}")
+    except Exception as e:
+        print(f"Erro ao salvar JSON em {file_path}: {e}")
 
 def evaluate_ragas(questions, ground_truths, contexts, answers, title="mamba"):
+    """
+    Executa o RAGAs no dataset fornecido.
+    """
     dataset = Dataset.from_dict({
         "question": questions,
         "ground_truth": ground_truths,
         "contexts": contexts,
         "answer": answers
     })
-    
+
     print(f"\n==== Avaliando: {title} ====\n")
-    
-    # Configura LLM e embeddings
+
     llm, embeddings = _get_llm_and_embeddings()
-    
-    # Define as métricas a usar
+
     metrics = [
         answer_correctness,
         answer_similarity,
     ]
-    
-    # Configura o LLM e embeddings nas métricas se disponíveis
+
+
     if llm:
         answer_correctness.llm = llm
     if embeddings:
         answer_correctness.embeddings = embeddings
-    
+        answer_similarity.embeddings = embeddings
+
     try:
         result = evaluate(
             dataset,
@@ -94,15 +77,12 @@ def evaluate_ragas(questions, ground_truths, contexts, answers, title="mamba"):
             llm=llm,
             embeddings=embeddings
         )
-        
-        print(result)
 
-        scores = result.scores
+        print("\n--- Resultados da Avaliação ---")
 
-        write_json(scores, f"output/ragas_result_{title or 'default'}.json")
-        
-        return result
-    
+
+        return result.scores[0]
+
     except Exception as e:
         print(f"Erro durante avaliação RAGAS: {e}")
         return {

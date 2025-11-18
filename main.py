@@ -90,7 +90,7 @@ if __name__ == "__main__":
             answer = generate_answer_xlstm(query=initial_prompt)
 
         answer_dict = {
-            "resposta_do_modelo": answer,
+            "resposta_do_model": answer,
             "resposta_correta": context[i]["resposta_correta"],
             "contexto": rag
         }
